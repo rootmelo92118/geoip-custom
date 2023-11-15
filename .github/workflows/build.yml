@@ -72,7 +72,7 @@ jobs:
         env:
           LICENSE_KEY: ${{ secrets.MAXMIND_GEOLITE2_LICENSE }}
         run: |
-          python3 generateASN.py ./geolite2_asn ./data
+          python3 generateASN.py ./geolite2_asn/GeoLite2-Country-Blocks-IPv4.csv ./geolite2_asn/GeoLite2-Country-Blocks-IPv4.csv ./data
 
       - name: Build geoip files
         run: |
