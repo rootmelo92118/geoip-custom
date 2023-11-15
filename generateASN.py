@@ -11,7 +11,7 @@ def main(ipv4="GeoLite2-ASN-Blocks-IPv4.csv", ipv6="GeoLite2-ASN-Blocks-IPv6.csv
                 asnlist.append(row['autonomous_system_number'])
             else:
                 asndict[row['autonomous_system_number']].append(row['network'])
-            print(row['network'],row['autonomous_system_number'])
+            print(row['network'] + " belongs to AS" + row['autonomous_system_number'])
         csvfile.close()
 
     with open(ipv6, newline='') as csvfile:
@@ -22,7 +22,7 @@ def main(ipv4="GeoLite2-ASN-Blocks-IPv4.csv", ipv6="GeoLite2-ASN-Blocks-IPv6.csv
                 asnlist.append(row['autonomous_system_number'])
             else:
                 asndict[row['autonomous_system_number']].append(row['network'])
-            print(row['network'],row['autonomous_system_number'])
+            print(row['network'] + " belongs to AS" + row['autonomous_system_number'])
         csvfile.close()
 
     for i in asnlist:
