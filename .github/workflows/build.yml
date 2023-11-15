@@ -49,6 +49,7 @@ jobs:
           curl -sSL https://www.gstatic.com/ipranges/cloud.json | jq --raw-output '.prefixes[].ipv4Prefix,.prefixes[].ipv6Prefix | select(. != null)' >> data/google
           curl -sSL https://api.fastly.com/public-ip-list | jq --raw-output '.addresses[],.ipv6_addresses[]' >> data/fastly
           curl -sSL https://ip-ranges.amazonaws.com/ip-ranges.json | jq --raw-output '.prefixes[],.ipv6_prefixes[] | select(.service == "CLOUDFRONT") | .ip_prefix,.ipv6_prefix' | grep "/" >> data/cloudfront
+          curl -sSL https://www.fullaccesstointernet.cn.eu.org:8443/deploy_resource/censorship/ip | python3 ip2cidr.py >> data/faticensor
 
       - name: Get GeoLite2 Country
         env:
@@ -72,7 +73,6 @@ jobs:
         env:
           LICENSE_KEY: ${{ secrets.MAXMIND_GEOLITE2_LICENSE }}
         run: |
-          ls geolite2_asn
           python3 generateASN.py ./geolite2_asn/GeoLite2-ASN-Blocks-IPv4.csv ./geolite2_asn/GeoLite2-ASN-Blocks-IPv4.csv ./data
 
       - name: Build geoip files
