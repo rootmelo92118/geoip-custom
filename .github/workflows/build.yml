@@ -69,7 +69,7 @@ jobs:
           rm -f GeoLite2-ASN-CSV.zip
           mv GeoLite2* geolite2_asn_csv
           curl -L "https://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-ASN&license_key=${LICENSE_KEY}&suffix=tar.gz" -o GeoLite2-ASN.tar.gz
-          tar xzf GeoLite2-ASN.tar.gz
+          tar -xvzf GeoLite2-ASN.tar.gz
           rm -f GeoLite2-ASN.tar.gz
           mv GeoLite2* geolite2_asn_mmdb
           mv geolite2_asn_mmdb/GeoLite2-ASN.mmdb ASN.mmdb
