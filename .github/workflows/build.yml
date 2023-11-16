@@ -72,10 +72,7 @@ jobs:
           tar -xvzf GeoLite2-ASN.tar.gz
           rm -f GeoLite2-ASN.tar.gz
           mv GeoLite2* geolite2_asn_mmdb
-          ls
-          mv geolite2_asn_mmdb/GeoLite2-ASN.mmdb .
-          mv GeoLite2-ASN.mmdb ASN.mmdb
-          ls
+          mv geolite2_asn_mmdb/GeoLite2-ASN.mmdb ASN.mmdb
           rm -rf geolite2_asn_mmdb
           
       - name: Generate ASN list by GeoLite2 ASN
