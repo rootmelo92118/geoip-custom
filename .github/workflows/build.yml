@@ -87,6 +87,10 @@ jobs:
 
       - name: Verify mmdb files
         run: |
+          mv ASN.mmdb ./output/maxmind
+
+      - name: Verify mmdb files
+        run: |
           cd ./output/maxmind || exit 1
           go install -v github.com/maxmind/mmdbverify@latest
           for name in $(ls *.mmdb); do
@@ -119,7 +123,7 @@ jobs:
       - name: Move files to publish directory
         run: |
           mkdir -p publish
-          mv ./output/dat/*.dat ./output/dat/*.sha256sum ./output/maxmind/*.mmdb ./output/maxmind/*.sha256sum *.gz *.zip ASN.mmdb ./publish/
+          mv ./output/dat/*.dat ./output/dat/*.sha256sum ./output/maxmind/*.mmdb ./output/maxmind/*.sha256sum *.gz *.zip ./publish/
           cp -fpPR ./output/text ./publish
 
       - name: Git push assets to "release" branch
