@@ -18,7 +18,7 @@ This project releases GeoIP files automatically every Thursday. It also provides
   - `geoip:telegram`（`GEOIP,TELEGRAM`）
   - `geoip:twitter`（`GEOIP,TWITTER`）
 - 新增类别
-  - 允許以ASN來調用IP數據，例如以 `geoip:as138421`（`GEOIP,AS138421`）來選定 China Unicom。
+  - 允許以ASN來調用IP數據，例如以 `geoip:as138421`（`GEOIP,AS138421`）來選定 China Unicom 自治系統內所有的IP位置。
 ## 参考配置
 
 在 [V2Ray](https://github.com/v2fly/v2ray-core) 中使用本项目 `.dat` 格式文件的参考配置：
