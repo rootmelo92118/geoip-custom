@@ -44,12 +44,14 @@ jobs:
           ./asn.sh
 
       - name: Append more CIDRs
+        env:
+          CENSORED_LIST: ${{ secrets.FATI_CENSOR_IP }}
         run: |
           curl -sSL https://www.gstatic.com/ipranges/goog.json | jq --raw-output '.prefixes[].ipv4Prefix,.prefixes[].ipv6Prefix | select(. != null)' >> data/google
           curl -sSL https://www.gstatic.com/ipranges/cloud.json | jq --raw-output '.prefixes[].ipv4Prefix,.prefixes[].ipv6Prefix | select(. != null)' >> data/google
           curl -sSL https://api.fastly.com/public-ip-list | jq --raw-output '.addresses[],.ipv6_addresses[]' >> data/fastly
           curl -sSL https://ip-ranges.amazonaws.com/ip-ranges.json | jq --raw-output '.prefixes[],.ipv6_prefixes[] | select(.service == "CLOUDFRONT") | .ip_prefix,.ipv6_prefix' | grep "/" >> data/cloudfront
-          curl -sSL https://www.fullaccesstointernet.cn.eu.org:8443/deploy_resource/censorship/ip | python3 ip2cidr.py >> data/faticensor
+          curl -sSL ${CENSORED_LIST} | python3 ip2cidr.py >> data/faticensor
 
       - name: Get GeoLite2 Country
         env:
