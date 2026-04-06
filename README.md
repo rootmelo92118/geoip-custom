@@ -803,7 +803,7 @@ false
 
 ## 致谢
 
-- @Loyalsoldier
+- [@Loyalsoldier/geoip](https://github.com/Loyalsoldier/geoip)
 
 ## License
 
