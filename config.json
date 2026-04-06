@@ -13,8 +13,7 @@
       "type": "cutter",
       "action": "remove",
       "args": {
-        "wantedList": ["cn"],
-        "onlyIPType": "ipv4"
+        "wantedList": ["cn"]
       }
     },
     {
@@ -48,6 +47,14 @@
       "type": "text",
       "action": "add",
       "args": {
+        "name": "tor",
+        "uri": "https://check.torproject.org/torbulkexitlist"
+      }
+    },
+    {
+      "type": "text",
+      "action": "add",
+      "args": {
         "name": "cloudflare",
         "uri": "https://www.cloudflare.com/ips-v4"
       }
@@ -69,6 +76,112 @@
       }
     },
     {
+      "type": "json",
+      "action": "add",
+      "args": {
+        "name": "google",
+        "uri": "https://www.gstatic.com/ipranges/goog.json",
+        "jsonPath": ["prefixes.#.ipv4Prefix", "prefixes.#.ipv6Prefix"]
+      }
+    },
+    {
+      "type": "json",
+      "action": "add",
+      "args": {
+        "name": "google",
+        "uri": "https://www.gstatic.com/ipranges/cloud.json",
+        "jsonPath": ["prefixes.#.ipv4Prefix", "prefixes.#.ipv6Prefix"]
+      }
+    },
+    {
+      "type": "json",
+      "action": "add",
+      "args": {
+        "name": "fastly",
+        "uri": "https://api.fastly.com/public-ip-list",
+        "jsonPath": ["addresses", "ipv6_addresses"]
+      }
+    },
+    {
+      "type": "json",
+      "action": "add",
+      "args": {
+        "name": "cloudfront",
+        "uri": "https://ip-ranges.amazonaws.com/ip-ranges.json",
+        "jsonPath": [
+          "prefixes.#(service==\"CLOUDFRONT\")#.ip_prefix",
+          "ipv6_prefixes.#(service==\"CLOUDFRONT\")#.ipv6_prefix"
+        ]
+      }
+    },
+    {
+      "type": "maxmindGeoLite2ASNCSV",
+      "action": "add",
+      "args": {
+        "ipv4": "./geolite2/GeoLite2-ASN-Blocks-IPv4.csv",
+        "ipv6": "./geolite2/GeoLite2-ASN-Blocks-IPv6.csv"
+      }
+    },
+    {
+      "type": "maxmindGeoLite2ASNCSV",
+      "action": "add",
+      "args": {
+        "ipv4": "./geolite2/GeoLite2-ASN-Blocks-IPv4.csv",
+        "ipv6": "./geolite2/GeoLite2-ASN-Blocks-IPv6.csv",
+        "wantedList": {
+          "cloudflare": [
+            "AS395747",
+            "AS394536",
+            "AS209242",
+            "AS203898",
+            "AS202623",
+            "AS14789",
+            "AS139242",
+            "AS133877",
+            "AS13335",
+            "AS132892"
+          ],
+          "facebook": ["AS63293", "AS54115", "AS32934"],
+          "fastly": ["AS54113", "AS394192"],
+          "google": [
+            "AS6432",
+            "AS55023",
+            "AS45566",
+            "AS43515",
+            "AS41264",
+            "AS40873",
+            "AS396982",
+            "AS395973",
+            "AS394699",
+            "AS394639",
+            "AS394507",
+            "AS36987",
+            "AS36492",
+            "AS36385",
+            "AS36384",
+            "AS36040",
+            "AS36039",
+            "AS26910",
+            "AS26684",
+            "AS22859",
+            "AS22577",
+            "AS19527",
+            "AS19448",
+            "AS19425",
+            "AS16591",
+            "AS16550",
+            "AS15169",
+            "AS13949",
+            "AS139190",
+            "AS139070"
+          ],
+          "netflix": ["AS55095", "AS40027", "AS394406", "AS2906"],
+          "telegram": ["AS62041", "AS62014", "AS59930", "AS44907", "AS211157"],
+          "twitter": ["AS8945", "AS63179", "AS54888", "AS35995", "AS13414"]
+        }
+      }
+    },
+    {
       "type": "text",
       "action": "add",
       "args": {
@@ -85,6 +198,7 @@
       "type": "v2rayGeoIPDat",
       "action": "output",
       "args": {
+        "outputDir": "./output",
         "outputName": "geoip.dat"
       }
     },
@@ -92,6 +206,7 @@
       "type": "v2rayGeoIPDat",
       "action": "output",
       "args": {
+        "outputDir": "./output",
         "outputName": "geoip-only-cn-private.dat",
         "wantedList": ["cn", "private"]
       }
@@ -100,7 +215,8 @@
       "type": "v2rayGeoIPDat",
       "action": "output",
       "args": {
-        "outputName": "geoip-asn.dat",
+        "outputDir": "./output",
+        "outputName": "geoip-only-new-category.dat",
         "wantedList": [
           "cloudflare",
           "cloudfront",
@@ -109,7 +225,8 @@
           "google",
           "netflix",
           "telegram",
-          "twitter"
+          "twitter",
+          "tor"
         ]
       }
     },
@@ -117,18 +234,27 @@
       "type": "v2rayGeoIPDat",
       "action": "output",
       "args": {
+        "outputDir": "./output",
         "oneFilePerList": true,
         "wantedList": ["cn", "private"]
+      }
+    },
+    {
+      "type": "v2rayGeoIPDat",
+      "action": "output",
+      "args": {
+        "oneFilePerList": true
       }
     },
     {
       "type": "maxmindMMDB",
       "action": "output",
       "args": {
+        "outputDir": "./output",
         "outputName": "Country.mmdb",
+        "sourceMMDBURI": "./output/GeoLite2-Country.mmdb",
         "overwriteList": [
           "cn",
-          "private",
           "cloudflare",
           "cloudfront",
           "facebook",
@@ -136,7 +262,9 @@
           "google",
           "netflix",
           "telegram",
-          "twitter"
+          "twitter",
+          "tor",
+          "private"
         ]
       }
     },
@@ -144,7 +272,9 @@
       "type": "maxmindMMDB",
       "action": "output",
       "args": {
+        "outputDir": "./output",
         "outputName": "Country-only-cn-private.mmdb",
+        "sourceMMDBURI": "./output/GeoLite2-Country.mmdb",
         "wantedList": ["cn", "private"]
       }
     },
@@ -152,7 +282,8 @@
       "type": "maxmindMMDB",
       "action": "output",
       "args": {
-        "outputName": "Country-asn.mmdb",
+        "outputDir": "./output",
+        "outputName": "Country-only-new-category.mmdb",
         "wantedList": [
           "cloudflare",
           "cloudfront",
@@ -161,12 +292,53 @@
           "google",
           "netflix",
           "telegram",
-          "twitter"
+          "twitter",
+          "tor"
         ]
       }
     },
     {
+      "type": "singboxSRS",
+      "action": "output"
+    },
+    {
+      "type": "mihomoMRS",
+      "action": "output"
+    },
+    {
       "type": "text",
+      "action": "output"
+    },
+    {
+      "type": "text",
+      "action": "output",
+      "args": {
+        "outputDir": "./output/nginx/allow",
+        "outputExtension": ".conf",
+        "addPrefixInLine": "allow ",
+        "addSuffixInLine": ";"
+      }
+    },
+    {
+      "type": "text",
+      "action": "output",
+      "args": {
+        "outputDir": "./output/nginx/deny",
+        "outputExtension": ".conf",
+        "addPrefixInLine": "deny ",
+        "addSuffixInLine": ";"
+      }
+    },
+    {
+      "type": "clashRuleSetClassical",
+      "action": "output"
+    },
+    {
+      "type": "clashRuleSet",
+      "action": "output"
+    },
+    {
+      "type": "surgeRuleSet",
       "action": "output"
     }
   ]
