@@ -87,7 +87,7 @@ jobs:
         run: |
           go run ./
 
-      - name: Verify mmdb files
+      - name: Move ASN.mmdb files
         run: |
           mv ASN.mmdb ./output/maxmind
 
