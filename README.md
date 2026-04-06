@@ -1,4 +1,4 @@
-# GeoIP 简介 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/Loyalsoldier/geoip) ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/Loyalsoldier/geoip/total?logo=github) ![GitHub Downloads (all assets, latest release)](https://img.shields.io/github/downloads/Loyalsoldier/geoip/latest/total?logo=github) [![jsdelivr stats](https://data.jsdelivr.com/v1/package/gh/Loyalsoldier/geoip/badge?style=rounded)](https://www.jsdelivr.com/package/gh/Loyalsoldier/geoip)
+# GeoIP 简介 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/rootmelo92118/geoip-custom) ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/rootmelo92118/geoip-custom/total?logo=github) ![GitHub Downloads (all assets, latest release)](https://img.shields.io/github/downloads/rootmelo92118/geoip-custom/latest/total?logo=github) [![jsdelivr stats](https://data.jsdelivr.com/v1/package/gh/rootmelo92118/geoip-custom/badge?style=rounded)](https://www.jsdelivr.com/package/gh/rootmelo92118/geoip-custom)
 
 本项目每周四自动生成多种格式 GeoIP 文件，同时提供命令行界面（CLI）工具供用户自行定制 GeoIP 文件，包括但不限于 V2Ray `dat` 格式文件 `geoip.dat`、MaxMind `mmdb` 格式文件 `Country.mmdb`、sing-box `SRS` 格式文件、mihomo `MRS` 格式文件、Clash ruleset 和 Surge ruleset。
 
@@ -799,16 +799,18 @@ false
 
 ## 使用本项目的项目
 
-- [@Loyalsoldier/v2ray-rules-dat](https://github.com/Loyalsoldier/v2ray-rules-dat)
-- [@Loyalsoldier/clash-rules](https://github.com/Loyalsoldier/clash-rules)
-- [@Loyalsoldier/surge-rules](https://github.com/Loyalsoldier/surge-rules)
+- [@rootmelo92118/v2ray-rules-dat](https://github.com/rootmelo92118/v2ray-rules-dat)
+
+## 致谢
+
+- @Loyalsoldier
 
 ## License
 
-[CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) and [GPL-3.0](https://github.com/Loyalsoldier/geoip/blob/master/LICENSE-GPL)
+[CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) and [GPL-3.0](https://github.com/rootmelo92118/geoip-custom/blob/master/LICENSE-GPL)
 
 This product includes GeoLite2 data created by MaxMind, available from [MaxMind](https://www.maxmind.com).
 
 ## 项目 Star 数增长趋势
 
-[![Stargazers over time](https://starchart.cc/Loyalsoldier/geoip.svg)](https://starchart.cc/Loyalsoldier/geoip)
+[![Stargazers over time](https://starchart.cc/rootmelo92118/geoip-custom.svg)](https://starchart.cc/rootmelo92118/geoip-custom)
