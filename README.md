@@ -10,12 +10,6 @@
 
 </div>
 
-<div align="center">
-<a href="https://deepwiki.com/Loyalsoldier/geoip" target="_blank"><img src="https://deepwiki.com/badge.svg" alt="Ask DeepWiki badge"></a> <a href="https://www.jsdelivr.com/package/gh/Loyalsoldier/geoip" target="_blank"><img src="https://data.jsdelivr.com/v1/package/gh/Loyalsoldier/geoip/badge?style=rounded" alt="jsdelivr stats badge"></a>
-
-<a href="https://shields.io" target="_blank"><img src="https://img.shields.io/github/downloads/Loyalsoldier/geoip/total?logo=github" alt="GitHub Downloads badge (all assets, all releases)"></a> <a href="https://shields.io" target="_blank"><img src="https://img.shields.io/github/downloads/Loyalsoldier/geoip/latest/total?logo=github" alt="GitHub Downloads badge (all assets, latest release)"></a>
-</div>
-
 ## 名词解析
 
 **GeoIP**，意为 ***IP geographic location***，即 IP 地址所对应的地理位置信息，例如所属的国家、地区等。GeoIP 数据文件则存储着 IP 地址所对应的地理位置信息。
@@ -30,7 +24,7 @@ This project releases various formats of GeoIP files automatically every Thursda
 
 ## GeoIP 类别
 
-本项目默认使用 [MaxMind GeoLite2 Country CSV 数据](https://github.com/Loyalsoldier/geoip/blob/release/GeoLite2-Country-CSV.zip)生成各个国家和地区的 GeoIP 文件。类别有：
+本项目默认使用 [MaxMind GeoLite2 Country CSV 数据](https://github.com/rootmelo92118/geoip-custom/blob/release/GeoLite2-Country-CSV.zip)生成各个国家和地区的 GeoIP 文件。类别有：
 
 - `geoip:cn`（`GEOIP,CN`）：**中国大陆**（Mainland China）
 - `geoip:hk`（`GEOIP,HK`）：**香港**（Hong Kong）
@@ -211,110 +205,110 @@ proxy(geoip:us)
 
 > 此 dat 格式文件不能用于 Nginx。
 
-所有**国家/地区**、**新增类别**的 dat 格式文件，请查看本项目 `release` 分支下的 [dat 目录](https://github.com/Loyalsoldier/geoip/tree/release/dat)。
+所有**国家/地区**、**新增类别**的 dat 格式文件，请查看本项目 `release` 分支下的 [dat 目录](https://github.com/rootmelo92118/geoip-custom/tree/release/dat)。
 
 - **geoip.dat**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/geoip.dat](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/geoip.dat)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/geoip.dat](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/geoip.dat)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/geoip.dat](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/geoip.dat)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/geoip.dat](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/geoip.dat)
 - **geoip.dat.sha256sum**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/geoip.dat.sha256sum](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/geoip.dat.sha256sum)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/geoip.dat.sha256sum](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/geoip.dat.sha256sum)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/geoip.dat.sha256sum](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/geoip.dat.sha256sum)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/geoip.dat.sha256sum](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/geoip.dat.sha256sum)
 - **geoip-only-cn-private.dat**（精简版 GeoIP，只包含 `geoip:cn` 和 `geoip:private`）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/geoip-only-cn-private.dat](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/geoip-only-cn-private.dat)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/geoip-only-cn-private.dat](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/geoip-only-cn-private.dat)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/geoip-only-cn-private.dat](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/geoip-only-cn-private.dat)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/geoip-only-cn-private.dat](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/geoip-only-cn-private.dat)
 - **geoip-only-cn-private.dat.sha256sum**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/geoip-only-cn-private.dat.sha256sum](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/geoip-only-cn-private.dat.sha256sum)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/geoip-only-cn-private.dat.sha256sum](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/geoip-only-cn-private.dat.sha256sum)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/geoip-only-cn-private.dat.sha256sum](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/geoip-only-cn-private.dat.sha256sum)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/geoip-only-cn-private.dat.sha256sum](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/geoip-only-cn-private.dat.sha256sum)
 - **geoip-asn.dat**（精简版 GeoIP，只包含上述新增类别）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/geoip-asn.dat](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/geoip-asn.dat)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/geoip-asn.dat](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/geoip-asn.dat)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/geoip-asn.dat](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/geoip-asn.dat)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/geoip-asn.dat](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/geoip-asn.dat)
 - **geoip-asn.dat.sha256sum**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/geoip-asn.dat.sha256sum](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/geoip-asn.dat.sha256sum)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/geoip-asn.dat.sha256sum](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/geoip-asn.dat.sha256sum)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/geoip-asn.dat.sha256sum](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/geoip-asn.dat.sha256sum)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/geoip-asn.dat.sha256sum](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/geoip-asn.dat.sha256sum)
 - **cn.dat**（精简版 GeoIP，只包含 `geoip:cn`）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/cn.dat](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/cn.dat)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/cn.dat](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/cn.dat)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/cn.dat](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/cn.dat)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/cn.dat](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/cn.dat)
 - **cn.dat.sha256sum**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/cn.dat.sha256sum](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/cn.dat.sha256sum)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/cn.dat.sha256sum](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/cn.dat.sha256sum)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/cn.dat.sha256sum](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/cn.dat.sha256sum)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/cn.dat.sha256sum](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/cn.dat.sha256sum)
 - **private.dat**（精简版 GeoIP，只包含 `geoip:private`）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/private.dat](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/private.dat)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/private.dat](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/private.dat)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/private.dat](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/private.dat)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/private.dat](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/private.dat)
 - **private.dat.sha256sum**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/private.dat.sha256sum](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/private.dat.sha256sum)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/private.dat.sha256sum](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/private.dat.sha256sum)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/private.dat.sha256sum](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/private.dat.sha256sum)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/private.dat.sha256sum](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/private.dat.sha256sum)
 
 部分**国家/地区**类别：
 
 - **中国大陆**（Mainland China）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/dat/cn.dat](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/dat/cn.dat)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/dat/cn.dat](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/dat/cn.dat)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/dat/cn.dat](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/dat/cn.dat)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/dat/cn.dat](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/dat/cn.dat)
 - **香港**（Hong Kong）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/dat/hk.dat](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/dat/hk.dat)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/dat/hk.dat](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/dat/hk.dat)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/dat/hk.dat](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/dat/hk.dat)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/dat/hk.dat](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/dat/hk.dat)
 - **澳门**（Macau）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/dat/mo.dat](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/dat/mo.dat)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/dat/mo.dat](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/dat/mo.dat)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/dat/mo.dat](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/dat/mo.dat)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/dat/mo.dat](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/dat/mo.dat)
 - **台湾**（Taiwan）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/dat/tw.dat](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/dat/tw.dat)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/dat/tw.dat](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/dat/tw.dat)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/dat/tw.dat](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/dat/tw.dat)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/dat/tw.dat](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/dat/tw.dat)
 - **美国**（America）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/dat/us.dat](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/dat/us.dat)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/dat/us.dat](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/dat/us.dat)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/dat/us.dat](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/dat/us.dat)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/dat/us.dat](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/dat/us.dat)
 - **日本**（Japan）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/dat/jp.dat](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/dat/jp.dat)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/dat/jp.dat](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/dat/jp.dat)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/dat/jp.dat](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/dat/jp.dat)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/dat/jp.dat](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/dat/jp.dat)
 - **韩国**（Korea）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/dat/kr.dat](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/dat/kr.dat)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/dat/kr.dat](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/dat/kr.dat)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/dat/kr.dat](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/dat/kr.dat)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/dat/kr.dat](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/dat/kr.dat)
 - **新加坡**（Singapore）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/dat/sg.dat](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/dat/sg.dat)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/dat/sg.dat](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/dat/sg.dat)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/dat/sg.dat](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/dat/sg.dat)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/dat/sg.dat](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/dat/sg.dat)
 - **缅甸**（Myanmar）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/dat/mm.dat](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/dat/mm.dat)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/dat/mm.dat](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/dat/mm.dat)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/dat/mm.dat](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/dat/mm.dat)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/dat/mm.dat](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/dat/mm.dat)
 - **伊朗**（Iran）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/dat/ir.dat](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/dat/ir.dat)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/dat/ir.dat](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/dat/ir.dat)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/dat/ir.dat](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/dat/ir.dat)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/dat/ir.dat](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/dat/ir.dat)
 - **俄罗斯**（Russia）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/dat/ru.dat](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/dat/ru.dat)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/dat/ru.dat](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/dat/ru.dat)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/dat/ru.dat](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/dat/ru.dat)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/dat/ru.dat](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/dat/ru.dat)
 - **白俄罗斯**（Belarus）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/dat/by.dat](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/dat/by.dat)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/dat/by.dat](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/dat/by.dat)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/dat/by.dat](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/dat/by.dat)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/dat/by.dat](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/dat/by.dat)
 - **土库曼斯坦**（Turkmenistan）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/dat/tm.dat](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/dat/tm.dat)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/dat/tm.dat](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/dat/tm.dat)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/dat/tm.dat](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/dat/tm.dat)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/dat/tm.dat](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/dat/tm.dat)
 
 **新增**类别：
 
 - **cloudflare**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/dat/cloudflare.dat](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/dat/cloudflare.dat)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/dat/cloudflare.dat](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/dat/cloudflare.dat)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/dat/cloudflare.dat](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/dat/cloudflare.dat)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/dat/cloudflare.dat](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/dat/cloudflare.dat)
 - **cloudfront**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/dat/cloudfront.dat](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/dat/cloudfront.dat)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/dat/cloudfront.dat](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/dat/cloudfront.dat)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/dat/cloudfront.dat](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/dat/cloudfront.dat)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/dat/cloudfront.dat](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/dat/cloudfront.dat)
 - **facebook**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/dat/facebook.dat](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/dat/facebook.dat)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/dat/facebook.dat](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/dat/facebook.dat)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/dat/facebook.dat](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/dat/facebook.dat)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/dat/facebook.dat](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/dat/facebook.dat)
 - **fastly**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/dat/fastly.dat](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/dat/fastly.dat)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/dat/fastly.dat](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/dat/fastly.dat)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/dat/fastly.dat](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/dat/fastly.dat)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/dat/fastly.dat](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/dat/fastly.dat)
 - **google**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/dat/google.dat](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/dat/google.dat)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/dat/google.dat](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/dat/google.dat)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/dat/google.dat](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/dat/google.dat)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/dat/google.dat](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/dat/google.dat)
 - **netflix**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/dat/netflix.dat](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/dat/netflix.dat)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/dat/netflix.dat](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/dat/netflix.dat)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/dat/netflix.dat](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/dat/netflix.dat)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/dat/netflix.dat](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/dat/netflix.dat)
 - **telegram**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/dat/telegram.dat](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/dat/telegram.dat)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/dat/telegram.dat](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/dat/telegram.dat)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/dat/telegram.dat](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/dat/telegram.dat)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/dat/telegram.dat](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/dat/telegram.dat)
 - **twitter**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/dat/twitter.dat](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/dat/twitter.dat)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/dat/twitter.dat](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/dat/twitter.dat)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/dat/twitter.dat](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/dat/twitter.dat)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/dat/twitter.dat](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/dat/twitter.dat)
 - **tor**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/dat/tor.dat](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/dat/tor.dat)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/dat/tor.dat](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/dat/tor.dat)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/dat/tor.dat](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/dat/tor.dat)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/dat/tor.dat](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/dat/tor.dat)
 
 - **Country.mmdb**（增强版 GeoIP，包含国家/地区类别，以及上述新增类别。但由于 MaxMind mmdb 格式限制，部分国家/地区类别的 IP 地址数据不如上述 **Country-without-asn.mmdb** 准确）：
   - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/Country.mmdb](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/Country.mmdb)
@@ -421,29 +415,29 @@ GEOIP,CN,policy,no-resolve
 > 本项目生成的 mmdb 格式文件中，**国家/地区**类别保留了 `Continent` 和 `Country` 里的所有字段，**新增类别**和 **`GEOIP,PRIVATE` 类别**只保留了 `Country` 里的 `iso_code`（两位英文字母表示的国家/地区代号）字段。关于 Maxmind 官方 `GeoIP2-Country.mmdb` 和 `GeoLite2-Country.mmdb` 数据文件的完整字段，请[查看代码](https://github.com/oschwald/geoip2-golang/blob/a9959b6a43cbc416aeec2e121befd0f621e68a3f/models.go#L496-L515)。
 
 - **Country-without-asn.mmdb**（传统版 GeoIP，只包含国家/地区类别和 `GEOIP,PRIVATE` 类别，不包含上述新增类别。建议优先使用）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country-without-asn.mmdb](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country-without-asn.mmdb)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/Country-without-asn.mmdb](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/Country-without-asn.mmdb)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/Country-without-asn.mmdb](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/Country-without-asn.mmdb)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/Country-without-asn.mmdb](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/Country-without-asn.mmdb)
 - **Country-without-asn.mmdb.sha256sum**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country-without-asn.mmdb.sha256sum](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country-without-asn.mmdb.sha256sum)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/Country-without-asn.mmdb.sha256sum](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/Country-without-asn.mmdb.sha256sum)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/Country-without-asn.mmdb.sha256sum](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/Country-without-asn.mmdb.sha256sum)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/Country-without-asn.mmdb.sha256sum](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/Country-without-asn.mmdb.sha256sum)
 - **Country.mmdb**（增强版 GeoIP，包含国家/地区类别、`GEOIP,PRIVATE` 类别，以及上述新增类别。但由于 MaxMind mmdb 格式限制，部分国家/地区类别的 IP 地址数据不如上述 **Country-without-asn.mmdb** 准确）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/Country.mmdb](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/Country.mmdb)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/Country.mmdb](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/Country.mmdb)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/Country.mmdb](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/Country.mmdb)
 - **Country.mmdb.sha256sum**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb.sha256sum](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb.sha256sum)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/Country.mmdb.sha256sum](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/Country.mmdb.sha256sum)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/Country.mmdb.sha256sum](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/Country.mmdb.sha256sum)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/Country.mmdb.sha256sum](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/Country.mmdb.sha256sum)
 - **Country-only-cn-private.mmdb**（精简版 GeoIP，只包含 `GEOIP,CN` 和 `GEOIP,PRIVATE`）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country-only-cn-private.mmdb](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country-only-cn-private.mmdb)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/Country-only-cn-private.mmdb](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/Country-only-cn-private.mmdb)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/Country-only-cn-private.mmdb](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/Country-only-cn-private.mmdb)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/Country-only-cn-private.mmdb](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/Country-only-cn-private.mmdb)
 - **Country-only-cn-private.mmdb.sha256sum**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country-only-cn-private.mmdb.sha256sum](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country-only-cn-private.mmdb.sha256sum)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/Country-only-cn-private.mmdb.sha256sum](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/Country-only-cn-private.mmdb.sha256sum)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/Country-only-cn-private.mmdb.sha256sum](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/Country-only-cn-private.mmdb.sha256sum)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/Country-only-cn-private.mmdb.sha256sum](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/Country-only-cn-private.mmdb.sha256sum)
 - **Country-asn.mmdb**（精简版 GeoIP，只包含上述新增类别）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country-asn.mmdb](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country-asn.mmdb)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/Country-asn.mmdb](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/Country-asn.mmdb)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/Country-asn.mmdb](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/Country-asn.mmdb)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/Country-asn.mmdb](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/Country-asn.mmdb)
 - **Country-asn.mmdb.sha256sum**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country-asn.mmdb.sha256sum](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country-asn.mmdb.sha256sum)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/Country-asn.mmdb.sha256sum](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/Country-asn.mmdb.sha256sum)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/Country-asn.mmdb.sha256sum](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/Country-asn.mmdb.sha256sum)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/Country-asn.mmdb.sha256sum](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/Country-asn.mmdb.sha256sum)
 - **GeoLite2-Country.mmdb**：
   - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/GeoLite2-Country.mmdb](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/GeoLite2-Country.mmdb)
   - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/GeoLite2-Country.mmdb](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/GeoLite2-Country.mmdb)
@@ -465,11 +459,11 @@ GEOIP,CN,policy,no-resolve
 > 适用于 [Nginx](https://nginx.org)，需要配合 [ngx_http_geoip2_module](https://github.com/leev/ngx_http_geoip2_module) 模块使用。
 
 - **GeoLite2-Country.mmdb**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/GeoLite2-Country.mmdb](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/GeoLite2-Country.mmdb)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/GeoLite2-Country.mmdb](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/GeoLite2-Country.mmdb)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/GeoLite2-Country.mmdb](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/GeoLite2-Country.mmdb)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/GeoLite2-Country.mmdb](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/GeoLite2-Country.mmdb)
 - **GeoLite2-Country.mmdb.sha256sum**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/GeoLite2-Country.mmdb.sha256sum](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/GeoLite2-Country.mmdb.sha256sum)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/GeoLite2-Country.mmdb.sha256sum](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/GeoLite2-Country.mmdb.sha256sum)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/GeoLite2-Country.mmdb.sha256sum](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/GeoLite2-Country.mmdb.sha256sum)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/GeoLite2-Country.mmdb.sha256sum](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/GeoLite2-Country.mmdb.sha256sum)
 
 <br/>
 
@@ -478,11 +472,11 @@ GEOIP,CN,policy,no-resolve
 > 适用于 [mihomo](https://github.com/MetaCubeX/mihomo/tree/Meta)、[Shadowrocket](https://apps.apple.com/us/app/id932747118)、[Surge](https://nssurge.com)。
 
 - **GeoLite2-ASN.mmdb**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/GeoLite2-ASN.mmdb](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/GeoLite2-ASN.mmdb)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/GeoLite2-ASN.mmdb](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/GeoLite2-ASN.mmdb)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/GeoLite2-ASN.mmdb](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/GeoLite2-ASN.mmdb)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/GeoLite2-ASN.mmdb](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/GeoLite2-ASN.mmdb)
 - **GeoLite2-ASN.mmdb.sha256sum**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/GeoLite2-ASN.mmdb.sha256sum](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/GeoLite2-ASN.mmdb.sha256sum)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/GeoLite2-ASN.mmdb.sha256sum](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/GeoLite2-ASN.mmdb.sha256sum)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/GeoLite2-ASN.mmdb.sha256sum](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/GeoLite2-ASN.mmdb.sha256sum)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/GeoLite2-ASN.mmdb.sha256sum](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/GeoLite2-ASN.mmdb.sha256sum)
 
 ---
 
@@ -528,79 +522,79 @@ GEOIP,CN,policy,no-resolve
 
 > 适用于 [sing-box](https://github.com/SagerNet/sing-box)。
 
-所有**国家/地区**、**新增类别**的 SRS 格式文件，请查看本项目 `release` 分支下的 [srs 目录](https://github.com/Loyalsoldier/geoip/tree/release/srs)。
+所有**国家/地区**、**新增类别**的 SRS 格式文件，请查看本项目 `release` 分支下的 [srs 目录](https://github.com/rootmelo92118/geoip-custom/tree/release/srs)。
 
 部分**国家/地区**类别：
 
 - **中国大陆**（Mainland China）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/srs/cn.srs](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/srs/cn.srs)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/srs/cn.srs](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/srs/cn.srs)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/srs/cn.srs](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/srs/cn.srs)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/srs/cn.srs](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/srs/cn.srs)
 - **香港**（Hong Kong）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/srs/hk.srs](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/srs/hk.srs)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/srs/hk.srs](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/srs/hk.srs)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/srs/hk.srs](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/srs/hk.srs)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/srs/hk.srs](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/srs/hk.srs)
 - **澳门**（Macau）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/srs/mo.srs](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/srs/mo.srs)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/srs/mo.srs](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/srs/mo.srs)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/srs/mo.srs](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/srs/mo.srs)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/srs/mo.srs](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/srs/mo.srs)
 - **台湾**（Taiwan）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/srs/tw.srs](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/srs/tw.srs)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/srs/tw.srs](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/srs/tw.srs)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/srs/tw.srs](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/srs/tw.srs)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/srs/tw.srs](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/srs/tw.srs)
 - **美国**（America）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/srs/us.srs](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/srs/us.srs)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/srs/us.srs](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/srs/us.srs)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/srs/us.srs](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/srs/us.srs)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/srs/us.srs](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/srs/us.srs)
 - **日本**（Japan）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/srs/jp.srs](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/srs/jp.srs)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/srs/jp.srs](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/srs/jp.srs)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/srs/jp.srs](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/srs/jp.srs)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/srs/jp.srs](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/srs/jp.srs)
 - **韩国**（Korea）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/srs/kr.srs](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/srs/kr.srs)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/srs/kr.srs](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/srs/kr.srs)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/srs/kr.srs](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/srs/kr.srs)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/srs/kr.srs](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/srs/kr.srs)
 - **新加坡**（Singapore）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/srs/sg.srs](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/srs/sg.srs)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/srs/sg.srs](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/srs/sg.srs)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/srs/sg.srs](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/srs/sg.srs)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/srs/sg.srs](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/srs/sg.srs)
 - **缅甸**（Myanmar）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/srs/mm.srs](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/srs/mm.srs)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/srs/mm.srs](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/srs/mm.srs)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/srs/mm.srs](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/srs/mm.srs)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/srs/mm.srs](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/srs/mm.srs)
 - **伊朗**（Iran）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/srs/ir.srs](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/srs/ir.srs)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/srs/ir.srs](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/srs/ir.srs)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/srs/ir.srs](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/srs/ir.srs)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/srs/ir.srs](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/srs/ir.srs)
 - **俄罗斯**（Russia）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/srs/ru.srs](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/srs/ru.srs)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/srs/ru.srs](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/srs/ru.srs)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/srs/ru.srs](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/srs/ru.srs)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/srs/ru.srs](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/srs/ru.srs)
 - **白俄罗斯**（Belarus）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/srs/by.srs](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/srs/by.srs)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/srs/by.srs](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/srs/by.srs)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/srs/by.srs](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/srs/by.srs)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/srs/by.srs](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/srs/by.srs)
 - **土库曼斯坦**（Turkmenistan）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/srs/tm.srs](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/srs/tm.srs)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/srs/tm.srs](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/srs/tm.srs)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/srs/tm.srs](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/srs/tm.srs)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/srs/tm.srs](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/srs/tm.srs)
 
 **新增**类别：
 
 - **cloudflare**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/srs/cloudflare.srs](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/srs/cloudflare.srs)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/srs/cloudflare.srs](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/srs/cloudflare.srs)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/srs/cloudflare.srs](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/srs/cloudflare.srs)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/srs/cloudflare.srs](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/srs/cloudflare.srs)
 - **cloudfront**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/srs/cloudfront.srs](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/srs/cloudfront.srs)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/srs/cloudfront.srs](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/srs/cloudfront.srs)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/srs/cloudfront.srs](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/srs/cloudfront.srs)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/srs/cloudfront.srs](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/srs/cloudfront.srs)
 - **facebook**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/srs/facebook.srs](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/srs/facebook.srs)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/srs/facebook.srs](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/srs/facebook.srs)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/srs/facebook.srs](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/srs/facebook.srs)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/srs/facebook.srs](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/srs/facebook.srs)
 - **fastly**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/srs/fastly.srs](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/srs/fastly.srs)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/srs/fastly.srs](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/srs/fastly.srs)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/srs/fastly.srs](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/srs/fastly.srs)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/srs/fastly.srs](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/srs/fastly.srs)
 - **google**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/srs/google.srs](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/srs/google.srs)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/srs/google.srs](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/srs/google.srs)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/srs/google.srs](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/srs/google.srs)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/srs/google.srs](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/srs/google.srs)
 - **netflix**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/srs/netflix.srs](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/srs/netflix.srs)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/srs/netflix.srs](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/srs/netflix.srs)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/srs/netflix.srs](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/srs/netflix.srs)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/srs/netflix.srs](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/srs/netflix.srs)
 - **telegram**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/srs/telegram.srs](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/srs/telegram.srs)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/srs/telegram.srs](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/srs/telegram.srs)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/srs/telegram.srs](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/srs/telegram.srs)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/srs/telegram.srs](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/srs/telegram.srs)
 - **twitter**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/srs/twitter.srs](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/srs/twitter.srs)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/srs/twitter.srs](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/srs/twitter.srs)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/srs/twitter.srs](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/srs/twitter.srs)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/srs/twitter.srs](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/srs/twitter.srs)
 - **tor**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/srs/tor.srs](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/srs/tor.srs)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/srs/tor.srs](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/srs/tor.srs)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/srs/tor.srs](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/srs/tor.srs)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/srs/tor.srs](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/srs/tor.srs)
 
 ---
 
@@ -645,74 +639,74 @@ rules:
 部分**国家/地区**类别：
 
 - **中国大陆**（Mainland China）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/mrs/cn.mrs](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/mrs/cn.mrs)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/mrs/cn.mrs](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/mrs/cn.mrs)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/mrs/cn.mrs](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/mrs/cn.mrs)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/mrs/cn.mrs](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/mrs/cn.mrs)
 - **香港**（Hong Kong）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/mrs/hk.mrs](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/mrs/hk.mrs)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/mrs/hk.mrs](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/mrs/hk.mrs)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/mrs/hk.mrs](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/mrs/hk.mrs)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/mrs/hk.mrs](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/mrs/hk.mrs)
 - **澳门**（Macau）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/mrs/mo.mrs](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/mrs/mo.mrs)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/mrs/mo.mrs](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/mrs/mo.mrs)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/mrs/mo.mrs](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/mrs/mo.mrs)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/mrs/mo.mrs](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/mrs/mo.mrs)
 - **台湾**（Taiwan）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/mrs/tw.mrs](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/mrs/tw.mrs)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/mrs/tw.mrs](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/mrs/tw.mrs)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/mrs/tw.mrs](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/mrs/tw.mrs)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/mrs/tw.mrs](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/mrs/tw.mrs)
 - **美国**（America）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/mrs/us.mrs](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/mrs/us.mrs)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/mrs/us.mrs](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/mrs/us.mrs)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/mrs/us.mrs](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/mrs/us.mrs)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/mrs/us.mrs](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/mrs/us.mrs)
 - **日本**（Japan）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/mrs/jp.mrs](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/mrs/jp.mrs)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/mrs/jp.mrs](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/mrs/jp.mrs)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/mrs/jp.mrs](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/mrs/jp.mrs)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/mrs/jp.mrs](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/mrs/jp.mrs)
 - **韩国**（Korea）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/mrs/kr.mrs](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/mrs/kr.mrs)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/mrs/kr.mrs](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/mrs/kr.mrs)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/mrs/kr.mrs](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/mrs/kr.mrs)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/mrs/kr.mrs](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/mrs/kr.mrs)
 - **新加坡**（Singapore）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/mrs/sg.mrs](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/mrs/sg.mrs)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/mrs/sg.mrs](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/mrs/sg.mrs)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/mrs/sg.mrs](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/mrs/sg.mrs)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/mrs/sg.mrs](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/mrs/sg.mrs)
 - **缅甸**（Myanmar）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/mrs/mm.mrs](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/mrs/mm.mrs)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/mrs/mm.mrs](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/mrs/mm.mrs)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/mrs/mm.mrs](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/mrs/mm.mrs)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/mrs/mm.mrs](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/mrs/mm.mrs)
 - **伊朗**（Iran）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/mrs/ir.mrs](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/mrs/ir.mrs)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/mrs/ir.mrs](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/mrs/ir.mrs)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/mrs/ir.mrs](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/mrs/ir.mrs)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/mrs/ir.mrs](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/mrs/ir.mrs)
 - **俄罗斯**（Russia）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/mrs/ru.mrs](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/mrs/ru.mrs)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/mrs/ru.mrs](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/mrs/ru.mrs)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/mrs/ru.mrs](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/mrs/ru.mrs)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/mrs/ru.mrs](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/mrs/ru.mrs)
 - **白俄罗斯**（Belarus）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/mrs/by.mrs](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/mrs/by.mrs)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/mrs/by.mrs](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/mrs/by.mrs)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/mrs/by.mrs](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/mrs/by.mrs)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/mrs/by.mrs](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/mrs/by.mrs)
 - **土库曼斯坦**（Turkmenistan）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/mrs/tm.mrs](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/mrs/tm.mrs)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/mrs/tm.mrs](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/mrs/tm.mrs)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/mrs/tm.mrs](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/mrs/tm.mrs)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/mrs/tm.mrs](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/mrs/tm.mrs)
 
 **新增**类别：
 
 - **cloudflare**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/mrs/cloudflare.mrs](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/mrs/cloudflare.mrs)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/mrs/cloudflare.mrs](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/mrs/cloudflare.mrs)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/mrs/cloudflare.mrs](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/mrs/cloudflare.mrs)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/mrs/cloudflare.mrs](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/mrs/cloudflare.mrs)
 - **cloudfront**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/mrs/cloudfront.mrs](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/mrs/cloudfront.mrs)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/mrs/cloudfront.mrs](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/mrs/cloudfront.mrs)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/mrs/cloudfront.mrs](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/mrs/cloudfront.mrs)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/mrs/cloudfront.mrs](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/mrs/cloudfront.mrs)
 - **facebook**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/mrs/facebook.mrs](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/mrs/facebook.mrs)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/mrs/facebook.mrs](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/mrs/facebook.mrs)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/mrs/facebook.mrs](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/mrs/facebook.mrs)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/mrs/facebook.mrs](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/mrs/facebook.mrs)
 - **fastly**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/mrs/fastly.mrs](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/mrs/fastly.mrs)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/mrs/fastly.mrs](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/mrs/fastly.mrs)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/mrs/fastly.mrs](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/mrs/fastly.mrs)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/mrs/fastly.mrs](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/mrs/fastly.mrs)
 - **google**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/mrs/google.mrs](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/mrs/google.mrs)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/mrs/google.mrs](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/mrs/google.mrs)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/mrs/google.mrs](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/mrs/google.mrs)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/mrs/google.mrs](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/mrs/google.mrs)
 - **netflix**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/mrs/netflix.mrs](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/mrs/netflix.mrs)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/mrs/netflix.mrs](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/mrs/netflix.mrs)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/mrs/netflix.mrs](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/mrs/netflix.mrs)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/mrs/netflix.mrs](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/mrs/netflix.mrs)
 - **telegram**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/mrs/telegram.mrs](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/mrs/telegram.mrs)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/mrs/telegram.mrs](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/mrs/telegram.mrs)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/mrs/telegram.mrs](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/mrs/telegram.mrs)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/mrs/telegram.mrs](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/mrs/telegram.mrs)
 - **twitter**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/mrs/twitter.mrs](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/mrs/twitter.mrs)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/mrs/twitter.mrs](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/mrs/twitter.mrs)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/mrs/twitter.mrs](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/mrs/twitter.mrs)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/mrs/twitter.mrs](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/mrs/twitter.mrs)
 - **tor**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/mrs/tor.mrs](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/mrs/tor.mrs)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/mrs/tor.mrs](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/mrs/tor.mrs)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/mrs/tor.mrs](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/mrs/tor.mrs)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/mrs/tor.mrs](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/mrs/tor.mrs)
 
 ---
 
@@ -752,79 +746,79 @@ rules:
 
 > 适用于 [Clash Premium](https://github.com/Dreamacro/clash)、[mihomo](https://github.com/MetaCubeX/mihomo/tree/Meta)。
 
-所有**国家/地区**、**新增类别**的 Clash ruleset 格式文件，请查看本项目 `release` 分支下的 [clash 目录](https://github.com/Loyalsoldier/geoip/tree/release/clash)。
+所有**国家/地区**、**新增类别**的 Clash ruleset 格式文件，请查看本项目 `release` 分支下的 [clash 目录](https://github.com/rootmelo92118/geoip-custom/tree/release/clash)。
 
 部分**国家/地区**类别：
 
 - **中国大陆**（Mainland China）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/clash/ipcidr/cn.txt](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/clash/ipcidr/cn.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/clash/ipcidr/cn.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/clash/ipcidr/cn.txt)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/clash/ipcidr/cn.txt](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/clash/ipcidr/cn.txt)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/clash/ipcidr/cn.txt](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/clash/ipcidr/cn.txt)
 - **香港**（Hong Kong）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/clash/ipcidr/hk.txt](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/clash/ipcidr/hk.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/clash/ipcidr/hk.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/clash/ipcidr/hk.txt)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/clash/ipcidr/hk.txt](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/clash/ipcidr/hk.txt)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/clash/ipcidr/hk.txt](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/clash/ipcidr/hk.txt)
 - **澳门**（Macau）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/clash/ipcidr/mo.txt](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/clash/ipcidr/mo.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/clash/ipcidr/mo.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/clash/ipcidr/mo.txt)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/clash/ipcidr/mo.txt](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/clash/ipcidr/mo.txt)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/clash/ipcidr/mo.txt](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/clash/ipcidr/mo.txt)
 - **台湾**（Taiwan）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/clash/ipcidr/tw.txt](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/clash/ipcidr/tw.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/clash/ipcidr/tw.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/clash/ipcidr/tw.txt)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/clash/ipcidr/tw.txt](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/clash/ipcidr/tw.txt)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/clash/ipcidr/tw.txt](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/clash/ipcidr/tw.txt)
 - **美国**（America）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/clash/ipcidr/us.txt](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/clash/ipcidr/us.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/clash/ipcidr/us.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/clash/ipcidr/us.txt)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/clash/ipcidr/us.txt](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/clash/ipcidr/us.txt)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/clash/ipcidr/us.txt](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/clash/ipcidr/us.txt)
 - **日本**（Japan）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/clash/ipcidr/jp.txt](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/clash/ipcidr/jp.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/clash/ipcidr/jp.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/clash/ipcidr/jp.txt)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/clash/ipcidr/jp.txt](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/clash/ipcidr/jp.txt)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/clash/ipcidr/jp.txt](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/clash/ipcidr/jp.txt)
 - **韩国**（Korea）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/clash/ipcidr/kr.txt](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/clash/ipcidr/kr.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/clash/ipcidr/kr.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/clash/ipcidr/kr.txt)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/clash/ipcidr/kr.txt](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/clash/ipcidr/kr.txt)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/clash/ipcidr/kr.txt](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/clash/ipcidr/kr.txt)
 - **新加坡**（Singapore）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/clash/ipcidr/sg.txt](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/clash/ipcidr/sg.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/clash/ipcidr/sg.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/clash/ipcidr/sg.txt)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/clash/ipcidr/sg.txt](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/clash/ipcidr/sg.txt)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/clash/ipcidr/sg.txt](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/clash/ipcidr/sg.txt)
 - **缅甸**（Myanmar）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/clash/ipcidr/mm.txt](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/clash/ipcidr/mm.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/clash/ipcidr/mm.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/clash/ipcidr/mm.txt)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/clash/ipcidr/mm.txt](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/clash/ipcidr/mm.txt)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/clash/ipcidr/mm.txt](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/clash/ipcidr/mm.txt)
 - **伊朗**（Iran）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/clash/ipcidr/ir.txt](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/clash/ipcidr/ir.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/clash/ipcidr/ir.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/clash/ipcidr/ir.txt)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/clash/ipcidr/ir.txt](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/clash/ipcidr/ir.txt)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/clash/ipcidr/ir.txt](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/clash/ipcidr/ir.txt)
 - **俄罗斯**（Russia）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/clash/ipcidr/ru.txt](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/clash/ipcidr/ru.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/clash/ipcidr/ru.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/clash/ipcidr/ru.txt)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/clash/ipcidr/ru.txt](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/clash/ipcidr/ru.txt)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/clash/ipcidr/ru.txt](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/clash/ipcidr/ru.txt)
 - **白俄罗斯**（Belarus）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/clash/ipcidr/by.txt](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/clash/ipcidr/by.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/clash/ipcidr/by.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/clash/ipcidr/by.txt)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/clash/ipcidr/by.txt](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/clash/ipcidr/by.txt)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/clash/ipcidr/by.txt](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/clash/ipcidr/by.txt)
 - **土库曼斯坦**（Turkmenistan）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/clash/ipcidr/tm.txt](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/clash/ipcidr/tm.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/clash/ipcidr/tm.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/clash/ipcidr/tm.txt)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/clash/ipcidr/tm.txt](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/clash/ipcidr/tm.txt)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/clash/ipcidr/tm.txt](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/clash/ipcidr/tm.txt)
 
 **新增**类别：
 
 - **cloudflare**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/clash/ipcidr/cloudflare.txt](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/clash/ipcidr/cloudflare.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/clash/ipcidr/cloudflare.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/clash/ipcidr/cloudflare.txt)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/clash/ipcidr/cloudflare.txt](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/clash/ipcidr/cloudflare.txt)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/clash/ipcidr/cloudflare.txt](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/clash/ipcidr/cloudflare.txt)
 - **cloudfront**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/clash/ipcidr/cloudfront.txt](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/clash/ipcidr/cloudfront.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/clash/ipcidr/cloudfront.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/clash/ipcidr/cloudfront.txt)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/clash/ipcidr/cloudfront.txt](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/clash/ipcidr/cloudfront.txt)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/clash/ipcidr/cloudfront.txt](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/clash/ipcidr/cloudfront.txt)
 - **facebook**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/clash/ipcidr/facebook.txt](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/clash/ipcidr/facebook.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/clash/ipcidr/facebook.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/clash/ipcidr/facebook.txt)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/clash/ipcidr/facebook.txt](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/clash/ipcidr/facebook.txt)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/clash/ipcidr/facebook.txt](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/clash/ipcidr/facebook.txt)
 - **fastly**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/clash/ipcidr/fastly.txt](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/clash/ipcidr/fastly.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/clash/ipcidr/fastly.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/clash/ipcidr/fastly.txt)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/clash/ipcidr/fastly.txt](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/clash/ipcidr/fastly.txt)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/clash/ipcidr/fastly.txt](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/clash/ipcidr/fastly.txt)
 - **google**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/clash/ipcidr/google.txt](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/clash/ipcidr/google.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/clash/ipcidr/google.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/clash/ipcidr/google.txt)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/clash/ipcidr/google.txt](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/clash/ipcidr/google.txt)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/clash/ipcidr/google.txt](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/clash/ipcidr/google.txt)
 - **netflix**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/clash/ipcidr/netflix.txt](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/clash/ipcidr/netflix.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/clash/ipcidr/netflix.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/clash/ipcidr/netflix.txt)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/clash/ipcidr/netflix.txt](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/clash/ipcidr/netflix.txt)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/clash/ipcidr/netflix.txt](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/clash/ipcidr/netflix.txt)
 - **telegram**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/clash/ipcidr/telegram.txt](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/clash/ipcidr/telegram.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/clash/ipcidr/telegram.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/clash/ipcidr/telegram.txt)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/clash/ipcidr/telegram.txt](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/clash/ipcidr/telegram.txt)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/clash/ipcidr/telegram.txt](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/clash/ipcidr/telegram.txt)
 - **twitter**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/clash/ipcidr/twitter.txt](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/clash/ipcidr/twitter.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/clash/ipcidr/twitter.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/clash/ipcidr/twitter.txt)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/clash/ipcidr/twitter.txt](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/clash/ipcidr/twitter.txt)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/clash/ipcidr/twitter.txt](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/clash/ipcidr/twitter.txt)
 - **tor**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/clash/ipcidr/tor.txt](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/clash/ipcidr/tor.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/clash/ipcidr/tor.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/clash/ipcidr/tor.txt)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/clash/ipcidr/tor.txt](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/clash/ipcidr/tor.txt)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/clash/ipcidr/tor.txt](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/clash/ipcidr/tor.txt)
 
 ---
 
@@ -848,178 +842,178 @@ RULE-SET,https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/surge/te
 
 > 适用于 [Surge](https://nssurge.com)。
 
-所有**国家/地区**、**新增类别**的 Surge ruleset 格式文件，请查看本项目 `release` 分支下的 [surge 目录](https://github.com/Loyalsoldier/geoip/tree/release/surge)。
+所有**国家/地区**、**新增类别**的 Surge ruleset 格式文件，请查看本项目 `release` 分支下的 [surge 目录](https://github.com/rootmelo92118/geoip-custom/tree/release/surge)。
 
 部分**国家/地区**类别：
 
 - **中国大陆**（Mainland China）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/surge/cn.txt](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/surge/cn.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/surge/cn.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/surge/cn.txt)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/surge/cn.txt](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/surge/cn.txt)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/surge/cn.txt](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/surge/cn.txt)
 - **香港**（Hong Kong）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/surge/hk.txt](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/surge/hk.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/surge/hk.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/surge/hk.txt)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/surge/hk.txt](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/surge/hk.txt)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/surge/hk.txt](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/surge/hk.txt)
 - **澳门**（Macau）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/surge/mo.txt](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/surge/mo.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/surge/mo.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/surge/mo.txt)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/surge/mo.txt](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/surge/mo.txt)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/surge/mo.txt](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/surge/mo.txt)
 - **台湾**（Taiwan）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/surge/tw.txt](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/surge/tw.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/surge/tw.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/surge/tw.txt)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/surge/tw.txt](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/surge/tw.txt)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/surge/tw.txt](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/surge/tw.txt)
 - **美国**（America）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/surge/us.txt](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/surge/us.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/surge/us.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/surge/us.txt)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/surge/us.txt](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/surge/us.txt)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/surge/us.txt](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/surge/us.txt)
 - **日本**（Japan）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/surge/jp.txt](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/surge/jp.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/surge/jp.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/surge/jp.txt)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/surge/jp.txt](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/surge/jp.txt)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/surge/jp.txt](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/surge/jp.txt)
 - **韩国**（Korea）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/surge/kr.txt](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/surge/kr.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/surge/kr.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/surge/kr.txt)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/surge/kr.txt](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/surge/kr.txt)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/surge/kr.txt](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/surge/kr.txt)
 - **新加坡**（Singapore）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/surge/sg.txt](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/surge/sg.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/surge/sg.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/surge/sg.txt)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/surge/sg.txt](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/surge/sg.txt)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/surge/sg.txt](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/surge/sg.txt)
 - **缅甸**（Myanmar）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/surge/mm.txt](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/surge/mm.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/surge/mm.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/surge/mm.txt)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/surge/mm.txt](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/surge/mm.txt)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/surge/mm.txt](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/surge/mm.txt)
 - **伊朗**（Iran）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/surge/ir.txt](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/surge/ir.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/surge/ir.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/surge/ir.txt)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/surge/ir.txt](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/surge/ir.txt)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/surge/ir.txt](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/surge/ir.txt)
 - **俄罗斯**（Russia）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/surge/ru.txt](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/surge/ru.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/surge/ru.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/surge/ru.txt)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/surge/ru.txt](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/surge/ru.txt)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/surge/ru.txt](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/surge/ru.txt)
 - **白俄罗斯**（Belarus）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/surge/by.txt](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/surge/by.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/surge/by.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/surge/by.txt)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/surge/by.txt](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/surge/by.txt)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/surge/by.txt](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/surge/by.txt)
 - **土库曼斯坦**（Turkmenistan）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/surge/tm.txt](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/surge/tm.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/surge/tm.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/surge/tm.txt)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/surge/tm.txt](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/surge/tm.txt)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/surge/tm.txt](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/surge/tm.txt)
 
 **新增**类别：
 
 - **cloudflare**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/surge/cloudflare.txt](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/surge/cloudflare.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/surge/cloudflare.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/surge/cloudflare.txt)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/surge/cloudflare.txt](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/surge/cloudflare.txt)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/surge/cloudflare.txt](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/surge/cloudflare.txt)
 - **cloudfront**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/surge/cloudfront.txt](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/surge/cloudfront.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/surge/cloudfront.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/surge/cloudfront.txt)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/surge/cloudfront.txt](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/surge/cloudfront.txt)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/surge/cloudfront.txt](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/surge/cloudfront.txt)
 - **facebook**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/surge/facebook.txt](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/surge/facebook.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/surge/facebook.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/surge/facebook.txt)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/surge/facebook.txt](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/surge/facebook.txt)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/surge/facebook.txt](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/surge/facebook.txt)
 - **fastly**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/surge/fastly.txt](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/surge/fastly.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/surge/fastly.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/surge/fastly.txt)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/surge/fastly.txt](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/surge/fastly.txt)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/surge/fastly.txt](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/surge/fastly.txt)
 - **google**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/surge/google.txt](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/surge/google.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/surge/google.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/surge/google.txt)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/surge/google.txt](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/surge/google.txt)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/surge/google.txt](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/surge/google.txt)
 - **netflix**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/surge/netflix.txt](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/surge/netflix.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/surge/netflix.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/surge/netflix.txt)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/surge/netflix.txt](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/surge/netflix.txt)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/surge/netflix.txt](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/surge/netflix.txt)
 - **telegram**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/surge/telegram.txt](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/surge/telegram.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/surge/telegram.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/surge/telegram.txt)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/surge/telegram.txt](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/surge/telegram.txt)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/surge/telegram.txt](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/surge/telegram.txt)
 - **twitter**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/surge/twitter.txt](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/surge/twitter.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/surge/twitter.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/surge/twitter.txt)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/surge/twitter.txt](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/surge/twitter.txt)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/surge/twitter.txt](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/surge/twitter.txt)
 - **tor**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/surge/tor.txt](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/surge/tor.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/surge/tor.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/surge/tor.txt)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/surge/tor.txt](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/surge/tor.txt)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/surge/tor.txt](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/surge/tor.txt)
 请查看本项目 `release` 分支下的 [text 目录](https://github.com/rootmelo92118/geoip-custom/tree/release/text)。
 
 ---
 
 ### Nginx `allow` 和 `deny` 格式文件
 
-所有**国家/地区**、**新增类别**的 Nginx `allow` 和 `deny` 格式文件，请查看本项目 `release` 分支下的 [nginx 目录](https://github.com/Loyalsoldier/geoip/tree/release/nginx)。
+所有**国家/地区**、**新增类别**的 Nginx `allow` 和 `deny` 格式文件，请查看本项目 `release` 分支下的 [nginx 目录](https://github.com/rootmelo92118/geoip-custom/tree/release/nginx)。
 
 ---
 
 ### 纯文本 txt 格式文件
 
-所有**国家/地区**、**新增类别**的纯文本 txt 格式文件，请查看本项目 `release` 分支下的 [text 目录](https://github.com/Loyalsoldier/geoip/tree/release/text)。
+所有**国家/地区**、**新增类别**的纯文本 txt 格式文件，请查看本项目 `release` 分支下的 [text 目录](https://github.com/rootmelo92118/geoip-custom/tree/release/text)。
 
 部分**国家/地区**类别：
 
 - **中国大陆**（Mainland China）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/cn.txt](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/cn.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/text/cn.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/text/cn.txt)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/text/cn.txt](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/text/cn.txt)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/text/cn.txt](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/text/cn.txt)
 - **香港**（Hong Kong）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/hk.txt](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/hk.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/text/hk.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/text/hk.txt)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/text/hk.txt](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/text/hk.txt)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/text/hk.txt](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/text/hk.txt)
 - **澳门**（Macau）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/mo.txt](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/mo.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/text/mo.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/text/mo.txt)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/text/mo.txt](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/text/mo.txt)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/text/mo.txt](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/text/mo.txt)
 - **台湾**（Taiwan）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/tw.txt](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/tw.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/text/tw.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/text/tw.txt)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/text/tw.txt](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/text/tw.txt)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/text/tw.txt](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/text/tw.txt)
 - **美国**（America）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/us.txt](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/us.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/text/us.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/text/us.txt)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/text/us.txt](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/text/us.txt)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/text/us.txt](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/text/us.txt)
 - **日本**（Japan）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/jp.txt](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/jp.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/text/jp.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/text/jp.txt)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/text/jp.txt](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/text/jp.txt)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/text/jp.txt](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/text/jp.txt)
 - **韩国**（Korea）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/kr.txt](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/kr.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/text/kr.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/text/kr.txt)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/text/kr.txt](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/text/kr.txt)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/text/kr.txt](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/text/kr.txt)
 - **新加坡**（Singapore）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/sg.txt](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/sg.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/text/sg.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/text/sg.txt)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/text/sg.txt](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/text/sg.txt)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/text/sg.txt](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/text/sg.txt)
 - **缅甸**（Myanmar）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/mm.txt](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/mm.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/text/mm.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/text/mm.txt)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/text/mm.txt](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/text/mm.txt)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/text/mm.txt](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/text/mm.txt)
 - **伊朗**（Iran）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/ir.txt](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/ir.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/text/ir.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/text/ir.txt)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/text/ir.txt](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/text/ir.txt)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/text/ir.txt](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/text/ir.txt)
 - **俄罗斯**（Russia）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/ru.txt](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/ru.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/text/ru.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/text/ru.txt)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/text/ru.txt](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/text/ru.txt)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/text/ru.txt](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/text/ru.txt)
 - **白俄罗斯**（Belarus）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/by.txt](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/by.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/text/by.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/text/by.txt)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/text/by.txt](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/text/by.txt)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/text/by.txt](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/text/by.txt)
 - **土库曼斯坦**（Turkmenistan）：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/tm.txt](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/tm.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/text/tm.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/text/tm.txt)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/text/tm.txt](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/text/tm.txt)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/text/tm.txt](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/text/tm.txt)
 
 **新增**类别：
 
 - **cloudflare**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/cloudflare.txt](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/cloudflare.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/text/cloudflare.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/text/cloudflare.txt)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/text/cloudflare.txt](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/text/cloudflare.txt)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/text/cloudflare.txt](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/text/cloudflare.txt)
 - **cloudfront**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/cloudfront.txt](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/cloudfront.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/text/cloudfront.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/text/cloudfront.txt)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/text/cloudfront.txt](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/text/cloudfront.txt)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/text/cloudfront.txt](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/text/cloudfront.txt)
 - **facebook**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/facebook.txt](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/facebook.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/text/facebook.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/text/facebook.txt)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/text/facebook.txt](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/text/facebook.txt)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/text/facebook.txt](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/text/facebook.txt)
 - **fastly**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/fastly.txt](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/fastly.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/text/fastly.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/text/fastly.txt)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/text/fastly.txt](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/text/fastly.txt)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/text/fastly.txt](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/text/fastly.txt)
 - **google**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/google.txt](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/google.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/text/google.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/text/google.txt)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/text/google.txt](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/text/google.txt)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/text/google.txt](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/text/google.txt)
 - **netflix**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/netflix.txt](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/netflix.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/text/netflix.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/text/netflix.txt)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/text/netflix.txt](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/text/netflix.txt)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/text/netflix.txt](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/text/netflix.txt)
 - **telegram**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/telegram.txt](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/telegram.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/text/telegram.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/text/telegram.txt)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/text/telegram.txt](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/text/telegram.txt)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/text/telegram.txt](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/text/telegram.txt)
 - **twitter**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/twitter.txt](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/twitter.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/text/twitter.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/text/twitter.txt)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/text/twitter.txt](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/text/twitter.txt)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/text/twitter.txt](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/text/twitter.txt)
 - **tor**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/tor.txt](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/tor.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/text/tor.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/text/tor.txt)
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/text/tor.txt](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/text/tor.txt)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/text/tor.txt](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/text/tor.txt)
 
 ## 自行定制 GeoIP 文件
 
 > [!NOTE]
-> 如果需要使用 MaxMind 官方 GeoLite2 数据文件，需要提前从 MaxMind 下载，或者从本项目 [release 分支](https://github.com/Loyalsoldier/geoip/tree/release)下载（文件名以 `GeoLite2` 为前缀的文件），并解压缩到名为 `geolite2` 的目录。
+> 如果需要使用 MaxMind 官方 GeoLite2 数据文件，需要提前从 MaxMind 下载，或者从本项目 [release 分支](https://github.com/rootmelo92118/geoip-custom/tree/release)下载（文件名以 `GeoLite2` 为前缀的文件），并解压缩到名为 `geolite2` 的目录。
 
 ### 定制方式
 
-- **在线生成**：[Fork](https://github.com/Loyalsoldier/geoip/fork) 本仓库后，根据 [`configuration.md`](https://github.com/Loyalsoldier/geoip/blob/HEAD/configuration.md) 配置说明文档，修改自己仓库内的配置文件 `config.json` 和 GitHub Workflow `.github/workflows/build.yml`
+- **在线生成**：[Fork](https://github.com/rootmelo92118/geoip-custom/fork) 本仓库后，根据 [`configuration.md`](https://github.com/rootmelo92118/geoip-custom/blob/HEAD/configuration.md) 配置说明文档，修改自己仓库内的配置文件 `config.json` 和 GitHub Workflow `.github/workflows/build.yml`
 - **本地生成**：
   - 安装 [Golang](https://go.dev/dl/) 和 [Git](https://git-scm.com)
   - 拉取项目代码: `git clone https://github.com/rootmelo92118/geoip-custom.git`
   - 进入项目根目录：`cd geoip`
-  - 根据 [`configuration.md`](https://github.com/Loyalsoldier/geoip/blob/HEAD/configuration.md) 配置说明文档，修改配置文件 `config.json`
+  - 根据 [`configuration.md`](https://github.com/rootmelo92118/geoip-custom/blob/HEAD/configuration.md) 配置说明文档，修改配置文件 `config.json`
   - 运行代码：`go run ./ convert -c ./config.json`
 
 ### 配置文件概念解析
@@ -1030,7 +1024,7 @@ These two concepts in configuration file `config.json` are notable: `input` and 
 
 ### 支持的格式
 
-关于每种格式所支持的配置选项，查看本项目 [`configuration.md`](https://github.com/Loyalsoldier/geoip/blob/HEAD/configuration.md) 配置说明文档。
+关于每种格式所支持的配置选项，查看本项目 [`configuration.md`](https://github.com/rootmelo92118/geoip-custom/blob/HEAD/configuration.md) 配置说明文档。
 
 支持的 `input` 输入格式：
 
@@ -1392,8 +1386,8 @@ This product includes GeoLite2 data created by MaxMind, available from [MaxMind]
 
 <a href="https://www.star-history.com/?repos=Loyalsoldier%2Fgeoip&type=date&legend=top-left">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Loyalsoldier/geoip&type=date&theme=dark&legend=top-left&sealed_token=esf8pGs-3KVdrX__Wt8TDQgH-o8msKwSDVxZqJfNGHLlsNEjsUx8QPPOe7eW5m8eL0wQb81hwELIri8RWP2XCXrRnrN4sq4F_gb4Vc244ZdIvo2iA1Fk0w" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=Loyalsoldier/geoip&type=date&legend=top-left&sealed_token=esf8pGs-3KVdrX__Wt8TDQgH-o8msKwSDVxZqJfNGHLlsNEjsUx8QPPOe7eW5m8eL0wQb81hwELIri8RWP2XCXrRnrN4sq4F_gb4Vc244ZdIvo2iA1Fk0w" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Loyalsoldier/geoip&type=date&legend=top-left&sealed_token=esf8pGs-3KVdrX__Wt8TDQgH-o8msKwSDVxZqJfNGHLlsNEjsUx8QPPOe7eW5m8eL0wQb81hwELIri8RWP2XCXrRnrN4sq4F_gb4Vc244ZdIvo2iA1Fk0w" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=rootmelo92118/geoip-custom&type=date&theme=dark&legend=top-left&sealed_token=esf8pGs-3KVdrX__Wt8TDQgH-o8msKwSDVxZqJfNGHLlsNEjsUx8QPPOe7eW5m8eL0wQb81hwELIri8RWP2XCXrRnrN4sq4F_gb4Vc244ZdIvo2iA1Fk0w" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=rootmelo92118/geoip-custom&type=date&legend=top-left&sealed_token=esf8pGs-3KVdrX__Wt8TDQgH-o8msKwSDVxZqJfNGHLlsNEjsUx8QPPOe7eW5m8eL0wQb81hwELIri8RWP2XCXrRnrN4sq4F_gb4Vc244ZdIvo2iA1Fk0w" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=rootmelo92118/geoip-custom&type=date&legend=top-left&sealed_token=esf8pGs-3KVdrX__Wt8TDQgH-o8msKwSDVxZqJfNGHLlsNEjsUx8QPPOe7eW5m8eL0wQb81hwELIri8RWP2XCXrRnrN4sq4F_gb4Vc244ZdIvo2iA1Fk0w" />
  </picture>
 </a>
