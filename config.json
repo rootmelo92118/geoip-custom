@@ -110,6 +110,14 @@
       "action": "add",
       "args": {
         "ipv4": "./geolite2/GeoLite2-ASN-Blocks-IPv4.csv",
+        "ipv6": "./geolite2/GeoLite2-ASN-Blocks-IPv6.csv"
+      }
+    },
+    {
+      "type": "maxmindGeoLite2ASNCSV",
+      "action": "add",
+      "args": {
+        "ipv4": "./geolite2/GeoLite2-ASN-Blocks-IPv4.csv",
         "ipv6": "./geolite2/GeoLite2-ASN-Blocks-IPv6.csv",
         "wantedList": {
           "cloudflare": [
@@ -180,6 +188,13 @@
       }
     },
     {
+      "type": "text",
+      "action": "add",
+      "args": {
+        "inputDir": "./data"
+      }
+    },
+    {
       "type": "private",
       "action": "add"
     }
@@ -207,7 +222,7 @@
       "action": "output",
       "args": {
         "outputDir": "./output",
-        "outputName": "geoip-asn.dat",
+        "outputName": "geoip-only-new-category.dat",
         "wantedList": [
           "cloudflare",
           "cloudfront",
@@ -264,27 +279,6 @@
       "action": "output",
       "args": {
         "outputDir": "./output",
-        "outputName": "Country-without-asn.mmdb",
-        "sourceMMDBURI": "./output/GeoLite2-Country.mmdb",
-        "overwriteList": ["cn", "private"],
-        "excludedList": [
-          "cloudflare",
-          "cloudfront",
-          "facebook",
-          "fastly",
-          "google",
-          "netflix",
-          "telegram",
-          "twitter",
-          "tor"
-        ]
-      }
-    },
-    {
-      "type": "maxmindMMDB",
-      "action": "output",
-      "args": {
-        "outputDir": "./output",
         "outputName": "Country-only-cn-private.mmdb",
         "sourceMMDBURI": "./output/GeoLite2-Country.mmdb",
         "wantedList": ["cn", "private"]
@@ -295,7 +289,7 @@
       "action": "output",
       "args": {
         "outputDir": "./output",
-        "outputName": "Country-asn.mmdb",
+        "outputName": "Country-only-new-category.mmdb",
         "wantedList": [
           "cloudflare",
           "cloudfront",

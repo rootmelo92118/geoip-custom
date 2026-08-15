@@ -64,10 +64,14 @@ This project releases various formats of GeoIP files automatically every Thursda
   - `geoip:telegram`（`GEOIP,TELEGRAM`）
   - `geoip:twitter`（`GEOIP,TWITTER`）
   - `geoip:tor`（`GEOIP,TOR`）
+- 新增类别
+  - 允許以ASN來調用IP數據，例如以 `geoip:as138421`（`GEOIP,AS138421`）來選定 China Unicom 自治系統內所有的IP位置。（僅`Country.mmdb`可用）
 
 ## 下载地址与使用方法
 
 > [!NOTE]
+本项目发布的所有 GeoIP 文件，请查看 [release 分支](https://github.com/rootmelo92118/geoip-custom/tree/release)。以下是部分格式 GeoIP 文件的下载地址：
+
 > 如果无法访问域名 `raw.githubusercontent.com`，可以使用第二个地址 `cdn.jsdelivr.net`。
 > 如果无法访问域名 `cdn.jsdelivr.net`，可以将其替换为 `fastly.jsdelivr.net`。
 >
@@ -75,7 +79,39 @@ This project releases various formats of GeoIP files automatically every Thursda
 
 <br/>
 
-本项目发布的所有 GeoIP 文件，请查看 [release 分支](https://github.com/Loyalsoldier/geoip/tree/release)。以下是部分格式 GeoIP 文件的下载地址和使用方法：
+> 此 dat 格式文件不能用于 Nginx。
+
+- **geoip.dat**：
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/geoip.dat](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/geoip.dat)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/geoip.dat](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/geoip.dat)
+- **geoip.dat.sha256sum**：
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/geoip.dat.sha256sum](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/geoip.dat.sha256sum)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/geoip.dat.sha256sum](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/geoip.dat.sha256sum)
+- **geoip-only-cn-private.dat**（精简版 GeoIP，只包含 `geoip:cn` 和 `geoip:private`）：
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/geoip-only-cn-private.dat](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/geoip-only-cn-private.dat)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/geoip-only-cn-private.dat](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/geoip-only-cn-private.dat)
+- **geoip-only-cn-private.dat.sha256sum**：
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/geoip-only-cn-private.dat.sha256sum](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/geoip-only-cn-private.dat.sha256sum)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/geoip-only-cn-private.dat.sha256sum](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/geoip-only-cn-private.dat.sha256sum)
+- **geoip-only-new-cotegory.dat**（精简版 GeoIP，只包含上述新增类别）：
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/geoip-only-new-cotegory.dat](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/geoip-only-new-cotegory.dat)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/geoip-only-new-cotegory.dat](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/geoip-only-new-cotegory.dat)
+- **geoip-only-new-cotegory.dat.sha256sum**：
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/geoip-only-new-cotegory.dat.sha256sum](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/geoip-only-new-cotegory.dat.sha256sum)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/geoip-only-new-cotegory.dat.sha256sum](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/geoip-only-new-cotegory.dat.sha256sum)
+- **cn.dat**（精简版 GeoIP，只包含 `geoip:cn`）：
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/cn.dat](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/cn.dat)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/cn.dat](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/cn.dat)
+- **cn.dat.sha256sum**：
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/cn.dat.sha256sum](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/cn.dat.sha256sum)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/cn.dat.sha256sum](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/cn.dat.sha256sum)
+- **private.dat**（精简版 GeoIP，只包含 `geoip:private`）：
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/private.dat](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/private.dat)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/private.dat](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/private.dat)
+- **private.dat.sha256sum**：
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/private.dat.sha256sum](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/private.dat.sha256sum)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/private.dat.sha256sum](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/private.dat.sha256sum)
+- **所有国家 / 地区 / 新增类别**的 dat 格式文件，请查看本项目 `release` 分支下的 [dat 目录](https://github.com/rootmelo92118/geoip-custom/tree/release/dat)。
 
 ### V2Ray dat 使用方法
 
@@ -123,7 +159,7 @@ This project releases various formats of GeoIP files automatically every Thursda
 ```yaml
 geodata-mode: true
 geox-url:
-  geoip: "https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/geoip.dat"
+  geoip: "https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/geoip.dat"
 ```
 
 </details>
@@ -280,7 +316,24 @@ proxy(geoip:us)
   - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/dat/tor.dat](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/dat/tor.dat)
   - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/dat/tor.dat](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/dat/tor.dat)
 
----
+- **Country.mmdb**（增强版 GeoIP，包含国家/地区类别，以及上述新增类别。但由于 MaxMind mmdb 格式限制，部分国家/地区类别的 IP 地址数据不如上述 **Country-without-asn.mmdb** 准确）：
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/Country.mmdb](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/Country.mmdb)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/Country.mmdb](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/Country.mmdb)
+- **Country.mmdb.sha256sum**：
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/Country.mmdb.sha256sum](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/Country.mmdb.sha256sum)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/Country.mmdb.sha256sum](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/Country.mmdb.sha256sum)
+- **Country-only-cn-private.mmdb**（精简版 GeoIP，只包含 `GEOIP,CN` 和 `GEOIP,PRIVATE`）：
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/Country-only-cn-private.mmdb](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/Country-only-cn-private.mmdb)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/Country-only-cn-private.mmdb](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/Country-only-cn-private.mmdb)
+- **Country-only-cn-private.mmdb.sha256sum**：
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/Country-only-cn-private.mmdb.sha256sum](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/Country-only-cn-private.mmdb.sha256sum)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/Country-only-cn-private.mmdb.sha256sum](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/Country-only-cn-private.mmdb.sha256sum)
+- **Country-only-new-cotegory.mmdb**（精简版 GeoIP，只包含上述新增类别）：
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/Country-only-new-cotegory.mmdb](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/Country-only-new-cotegory.mmdb)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/Country-only-new-cotegory.mmdb](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/Country-only-new-cotegory.mmdb)
+- **Country-only-new-cotegory.mmdb.sha256sum**：
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/Country-only-new-cotegory.mmdb.sha256sum](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/Country-only-new-cotegory.mmdb.sha256sum)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/Country-only-new-cotegory.mmdb.sha256sum](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/Country-only-new-cotegory.mmdb.sha256sum)
 
 ### MaxMind mmdb 使用方法
 
@@ -304,8 +357,8 @@ rules:
 ```yaml
 geodata-mode: false
 geox-url:
-  mmdb: "https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/Country.mmdb"
-  asn: "https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/GeoLite2-ASN.mmdb"
+  mmdb: "https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/Country.mmdb"
+  asn: "https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/GeoLite2-ASN.mmdb"
 ```
 
 </details>
@@ -364,6 +417,7 @@ GEOIP,CN,policy,no-resolve
 
 > 适用于 [Nginx](https://nginx.org)，需要配合 [ngx_http_geoip2_module](https://github.com/leev/ngx_http_geoip2_module) 模块使用。
 
+
 > 本项目生成的 mmdb 格式文件中，**国家/地区**类别保留了 `Continent` 和 `Country` 里的所有字段，**新增类别**和 **`GEOIP,PRIVATE` 类别**只保留了 `Country` 里的 `iso_code`（两位英文字母表示的国家/地区代号）字段。关于 Maxmind 官方 `GeoIP2-Country.mmdb` 和 `GeoLite2-Country.mmdb` 数据文件的完整字段，请[查看代码](https://github.com/oschwald/geoip2-golang/blob/a9959b6a43cbc416aeec2e121befd0f621e68a3f/models.go#L496-L515)。
 
 - **Country-without-asn.mmdb**（传统版 GeoIP，只包含国家/地区类别和 `GEOIP,PRIVATE` 类别，不包含上述新增类别。建议优先使用）：
@@ -390,7 +444,18 @@ GEOIP,CN,policy,no-resolve
 - **Country-asn.mmdb.sha256sum**：
   - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country-asn.mmdb.sha256sum](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country-asn.mmdb.sha256sum)
   - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/Country-asn.mmdb.sha256sum](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/Country-asn.mmdb.sha256sum)
-
+- **GeoLite2-Country.mmdb**：
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/GeoLite2-Country.mmdb](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/GeoLite2-Country.mmdb)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/GeoLite2-Country.mmdb](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/GeoLite2-Country.mmdb)
+- **GeoLite2-Country.mmdb.sha256sum**：
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/GeoLite2-Country.mmdb.sha256sum](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/GeoLite2-Country.mmdb.sha256sum)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/GeoLite2-Country.mmdb.sha256sum](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/GeoLite2-Country.mmdb.sha256sum)
+- **GeoLite2-ASN.mmdb**：
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/GeoLite2-ASN.mmdb](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/GeoLite2-ASN.mmdb)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/GeoLite2-ASN.mmdb](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/GeoLite2-ASN.mmdb)
+- **GeoLite2-ASN.mmdb.sha256sum**：
+  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/GeoLite2-ASN.mmdb.sha256sum](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/GeoLite2-ASN.mmdb.sha256sum)
+  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/GeoLite2-ASN.mmdb.sha256sum](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/GeoLite2-ASN.mmdb.sha256sum)
 <br/>
 
 2️⃣ MaxMind 官方版**国家/地区**类型 mmdb 文件：
@@ -443,13 +508,13 @@ GEOIP,CN,policy,no-resolve
       "tag": "geoip-cn",
       "type": "remote",
       "format": "binary",
-      "url": "https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/srs/cn.srs"
+      "url": "https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/srs/cn.srs"
     },
     {
       "tag": "geoip-us",
       "type": "remote",
       "format": "binary",
-      "url": "https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/srs/us.srs"
+      "url": "https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/srs/us.srs"
     }
   ]
 }
@@ -550,7 +615,7 @@ rule-providers:
     type: http
     behavior: ipcidr
     format: mrs
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/mrs/cn.mrs"
+    url: "https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/mrs/cn.mrs"
     path: ./mrs/geoip/cn.mrs
     interval: 86400
 
@@ -558,7 +623,7 @@ rule-providers:
     type: http
     behavior: ipcidr
     format: mrs
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/mrs/google.mrs"
+    url: "https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/mrs/google.mrs"
     path: ./mrs/geoip/google.mrs
     interval: 86400
 
@@ -575,7 +640,7 @@ rules:
 
 > 适用于 [mihomo](https://github.com/MetaCubeX/mihomo/tree/Meta)。
 
-所有**国家/地区**、**新增类别**的 MRS 格式文件，请查看本项目 `release` 分支下的 [mrs 目录](https://github.com/Loyalsoldier/geoip/tree/release/mrs)。
+所有**国家/地区**、**新增类别**的 MRS 格式文件，请查看本项目 `release` 分支下的 [mrs 目录](https://github.com/rootmelo92118/geoip/tree/release/mrs)。
 
 部分**国家/地区**类别：
 
@@ -662,7 +727,7 @@ rule-providers:
     type: http
     behavior: ipcidr
     format: yaml
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/clash/ipcidr/cn.txt"
+    url: "https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/clash/ipcidr/cn.txt"
     path: ./ruleset/ipcidr/cn.yaml
     interval: 86400
 
@@ -670,7 +735,7 @@ rule-providers:
     type: http
     behavior: ipcidr
     format: yaml
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/clash/ipcidr/telegram.txt"
+    url: "https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/clash/ipcidr/telegram.txt"
     path: ./ruleset/ipcidr/telegram.yaml
     interval: 86400
 
@@ -770,9 +835,9 @@ rules:
 
 ```conf
 [Rule]
-RULE-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/surge/us.txt,REJECT
-RULE-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/surge/cn.txt,DIRECT
-RULE-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/surge/telegram.txt,PROXY,no-resolve
+RULE-SET,https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/surge/us.txt,REJECT
+RULE-SET,https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/surge/cn.txt,DIRECT
+RULE-SET,https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/surge/telegram.txt,PROXY,no-resolve
 ```
 
 </details>
@@ -856,6 +921,7 @@ RULE-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/surge/telegram.t
 - **tor**：
   - [https://raw.githubusercontent.com/Loyalsoldier/geoip/release/surge/tor.txt](https://raw.githubusercontent.com/Loyalsoldier/geoip/release/surge/tor.txt)
   - [https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/surge/tor.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/surge/tor.txt)
+请查看本项目 `release` 分支下的 [text 目录](https://github.com/rootmelo92118/geoip-custom/tree/release/text)。
 
 ---
 
@@ -951,7 +1017,7 @@ RULE-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/surge/telegram.t
 - **在线生成**：[Fork](https://github.com/Loyalsoldier/geoip/fork) 本仓库后，根据 [`configuration.md`](https://github.com/Loyalsoldier/geoip/blob/HEAD/configuration.md) 配置说明文档，修改自己仓库内的配置文件 `config.json` 和 GitHub Workflow `.github/workflows/build.yml`
 - **本地生成**：
   - 安装 [Golang](https://go.dev/dl/) 和 [Git](https://git-scm.com)
-  - 拉取项目代码: `git clone https://github.com/Loyalsoldier/geoip.git`
+  - 拉取项目代码: `git clone https://github.com/rootmelo92118/geoip-custom.git`
   - 进入项目根目录：`cd geoip`
   - 根据 [`configuration.md`](https://github.com/Loyalsoldier/geoip/blob/HEAD/configuration.md) 配置说明文档，修改配置文件 `config.json`
   - 运行代码：`go run ./ convert -c ./config.json`
@@ -1008,7 +1074,7 @@ These two concepts in configuration file `config.json` are notable: `input` and 
 
 ## CLI 功能展示
 
-可通过 `go install -v github.com/Loyalsoldier/geoip@latest` 直接安装 CLI 工具。
+可通过 `go install -v github.com/rootmelo92118/geoip-custom@latest` 直接安装 CLI 工具。
 
 CLI 提供的功能如下：
 
@@ -1310,13 +1376,15 @@ false
 
 ## 使用本项目的项目
 
-- [@Loyalsoldier/v2ray-rules-dat](https://github.com/Loyalsoldier/v2ray-rules-dat)
-- [@Loyalsoldier/clash-rules](https://github.com/Loyalsoldier/clash-rules)
-- [@Loyalsoldier/surge-rules](https://github.com/Loyalsoldier/surge-rules)
+- [@rootmelo92118/v2ray-rules-dat](https://github.com/rootmelo92118/v2ray-rules-dat)
+
+## 致谢
+
+- [@Loyalsoldier/geoip](https://github.com/Loyalsoldier/geoip)
 
 ## License
 
-[CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) and [GPL-3.0](https://github.com/Loyalsoldier/geoip/blob/master/LICENSE-GPL)
+[CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) and [GPL-3.0](https://github.com/rootmelo92118/geoip-custom/blob/master/LICENSE-GPL)
 
 This product includes GeoLite2 data created by MaxMind, available from [MaxMind](https://www.maxmind.com).
 
