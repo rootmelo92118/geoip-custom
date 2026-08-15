@@ -438,18 +438,6 @@ GEOIP,CN,policy,no-resolve
 - **Country-asn.mmdb.sha256sum**：
   - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/Country-asn.mmdb.sha256sum](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/Country-asn.mmdb.sha256sum)
   - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/Country-asn.mmdb.sha256sum](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/Country-asn.mmdb.sha256sum)
-- **GeoLite2-Country.mmdb**：
-  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/GeoLite2-Country.mmdb](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/GeoLite2-Country.mmdb)
-  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/GeoLite2-Country.mmdb](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/GeoLite2-Country.mmdb)
-- **GeoLite2-Country.mmdb.sha256sum**：
-  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/GeoLite2-Country.mmdb.sha256sum](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/GeoLite2-Country.mmdb.sha256sum)
-  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/GeoLite2-Country.mmdb.sha256sum](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/GeoLite2-Country.mmdb.sha256sum)
-- **GeoLite2-ASN.mmdb**：
-  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/GeoLite2-ASN.mmdb](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/GeoLite2-ASN.mmdb)
-  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/GeoLite2-ASN.mmdb](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/GeoLite2-ASN.mmdb)
-- **GeoLite2-ASN.mmdb.sha256sum**：
-  - [https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/GeoLite2-ASN.mmdb.sha256sum](https://raw.githubusercontent.com/rootmelo92118/geoip-custom/release/GeoLite2-ASN.mmdb.sha256sum)
-  - [https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/GeoLite2-ASN.mmdb.sha256sum](https://cdn.jsdelivr.net/gh/rootmelo92118/geoip-custom@release/GeoLite2-ASN.mmdb.sha256sum)
 <br/>
 
 2️⃣ MaxMind 官方版**国家/地区**类型 mmdb 文件：
