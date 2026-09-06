@@ -1,0 +1,3 @@
+payload:
+  - IP-CIDR,45.42.198.0/24
+  - IP-CIDR6,2602:fbe1::/40

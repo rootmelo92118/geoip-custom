@@ -1,0 +1,6 @@
+payload:
+  - IP-CIDR,44.31.28.0/24
+  - IP-CIDR6,2a0e:aa06:440::/48
+  - IP-CIDR6,2a0e:aa06:450::/44
+  - IP-CIDR6,2a14:67c2:519::/48
+  - IP-CIDR6,2a14:67c2:520::/48

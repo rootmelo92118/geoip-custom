@@ -1,0 +1,4 @@
+payload:
+  - IP-CIDR6,2a12:cb41:1200::/44
+  - IP-CIDR6,2a12:cb41:1300::/44
+  - IP-CIDR6,2a12:cb41:13f0::/44

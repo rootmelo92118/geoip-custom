@@ -1,0 +1,2 @@
+payload:
+  - IP-CIDR6,2a0f:e780::/29

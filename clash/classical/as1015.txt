@@ -1,0 +1,4 @@
+payload:
+  - IP-CIDR,69.17.53.0/24
+  - IP-CIDR,193.57.8.0/24
+  - IP-CIDR6,2602:f6bb::/40

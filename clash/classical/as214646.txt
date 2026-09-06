@@ -1,0 +1,3 @@
+payload:
+  - IP-CIDR6,2a0a:79c0:402::/47
+  - IP-CIDR6,2a0a:79c0:404::/48

@@ -1,0 +1,5 @@
+payload:
+  - IP-CIDR,130.12.105.0/24
+  - IP-CIDR6,2602:f4e6::/41
+  - IP-CIDR6,2602:f4e6:f0::/46
+  - IP-CIDR6,2602:f4e6:f4::/47

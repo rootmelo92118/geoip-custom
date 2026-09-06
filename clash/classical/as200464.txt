@@ -1,0 +1,9 @@
+payload:
+  - IP-CIDR6,2a14:7583:e704::/48
+  - IP-CIDR6,2a14:7583:e70f::/48
+  - IP-CIDR6,2a14:7583:e710::/44
+  - IP-CIDR6,2a14:7583:e720::/48
+  - IP-CIDR6,2a14:7583:e7f9::/48
+  - IP-CIDR6,2a14:7583:e7fa::/48
+  - IP-CIDR6,2a14:7583:e7fd::/48
+  - IP-CIDR6,2a14:7583:e7ff::/48

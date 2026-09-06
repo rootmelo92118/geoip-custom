@@ -1,0 +1,2 @@
+payload:
+  - IP-CIDR6,2607:bac0::/32

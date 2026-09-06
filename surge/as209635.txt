@@ -1,0 +1,2 @@
+IP-CIDR,185.185.79.0/24
+IP-CIDR6,2a0f:a0c0:ffff::/48

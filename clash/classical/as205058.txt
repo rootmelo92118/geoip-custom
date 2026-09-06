@@ -1,0 +1,4 @@
+payload:
+  - IP-CIDR6,2602:feda:f5::/48
+  - IP-CIDR6,2602:feda:f6::/47
+  - IP-CIDR6,2602:feda:f8::/47

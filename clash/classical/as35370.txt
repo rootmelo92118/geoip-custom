@@ -1,0 +1,6 @@
+payload:
+  - IP-CIDR,78.152.64.0/19
+  - IP-CIDR,87.243.128.0/18
+  - IP-CIDR,160.20.100.0/22
+  - IP-CIDR6,2a07:cfc0::/29
+  - IP-CIDR6,2a0b:9e00::/29

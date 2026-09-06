@@ -1,0 +1,2 @@
+payload:
+  - IP-CIDR6,2a0a:79c0:600::/44

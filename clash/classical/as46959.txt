@@ -1,0 +1,4 @@
+payload:
+  - IP-CIDR,72.28.92.0/22
+  - IP-CIDR6,2602:fac5::/41
+  - IP-CIDR6,2602:fac5:80::/42

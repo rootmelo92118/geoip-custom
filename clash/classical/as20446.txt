@@ -1,0 +1,5 @@
+payload:
+  - IP-CIDR,204.154.108.0/24
+  - IP-CIDR6,2602:f4ca:1d::/48
+  - IP-CIDR6,2602:f4ca:e3::/48
+  - IP-CIDR6,2602:f4ca:e5::/48
