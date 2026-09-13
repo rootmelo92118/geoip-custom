@@ -1,0 +1,8 @@
+payload:
+  - IP-CIDR,141.193.84.0/22
+  - IP-CIDR,192.231.36.0/24
+  - IP-CIDR,199.27.71.0/24
+  - IP-CIDR6,2605:ecc0::/40
+  - IP-CIDR6,2605:ecc0:500::/40
+  - IP-CIDR6,2605:ecc0:800::/40
+  - IP-CIDR6,2605:ecc0:ff00::/40

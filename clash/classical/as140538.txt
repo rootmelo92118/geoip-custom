@@ -1,0 +1,4 @@
+payload:
+  - IP-CIDR6,240e:45c:c700::/40
+  - IP-CIDR6,240e:45c:c900::/40
+  - IP-CIDR6,240e:45c:cb00::/40

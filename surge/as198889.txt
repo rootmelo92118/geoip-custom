@@ -1,0 +1,4 @@
+IP-CIDR6,2a05:1083:bee0::/43
+IP-CIDR6,2a05:dfc1:3c10::/44
+IP-CIDR6,2a05:dfc1:3ccc::/48
+IP-CIDR6,2a12:bec0:2c0::/44

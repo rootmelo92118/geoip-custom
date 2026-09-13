@@ -1,0 +1,7 @@
+payload:
+  - IP-CIDR,177.36.96.0/19
+  - IP-CIDR,177.104.224.0/20
+  - IP-CIDR6,2804:5dfc::/36
+  - IP-CIDR6,2804:5dfc:1000::/37
+  - IP-CIDR6,2804:5dfc:1a00::/39
+  - IP-CIDR6,2804:5dfc:1c00::/38

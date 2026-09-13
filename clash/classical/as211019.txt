@@ -1,0 +1,2 @@
+payload:
+  - IP-CIDR6,2a14:1ec7:f800::/47

@@ -1,0 +1,3 @@
+payload:
+  - IP-CIDR6,2a0e:b107:f50::/44
+  - IP-CIDR6,2a0f:9240:2000::/48

@@ -1,0 +1,26 @@
+payload:
+  - IP-CIDR,78.31.128.0/21
+  - IP-CIDR,91.200.96.0/22
+  - IP-CIDR,91.207.124.0/23
+  - IP-CIDR,91.213.16.0/24
+  - IP-CIDR,193.200.141.0/24
+  - IP-CIDR,195.225.84.0/22
+  - IP-CIDR6,2001:67c:44::/48
+  - IP-CIDR6,2a0d:ca40::/30
+  - IP-CIDR6,2a0d:ca44::/31
+  - IP-CIDR6,2a0d:ca46::/32
+  - IP-CIDR6,2a0d:ca47:2::/47
+  - IP-CIDR6,2a0d:ca47:4::/46
+  - IP-CIDR6,2a0d:ca47:8::/45
+  - IP-CIDR6,2a0d:ca47:10::/44
+  - IP-CIDR6,2a0d:ca47:20::/43
+  - IP-CIDR6,2a0d:ca47:40::/42
+  - IP-CIDR6,2a0d:ca47:80::/41
+  - IP-CIDR6,2a0d:ca47:100::/40
+  - IP-CIDR6,2a0d:ca47:200::/39
+  - IP-CIDR6,2a0d:ca47:400::/38
+  - IP-CIDR6,2a0d:ca47:800::/37
+  - IP-CIDR6,2a0d:ca47:1000::/36
+  - IP-CIDR6,2a0d:ca47:2000::/35
+  - IP-CIDR6,2a0d:ca47:4000::/34
+  - IP-CIDR6,2a0d:ca47:8000::/33

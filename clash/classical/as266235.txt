@@ -1,0 +1,4 @@
+payload:
+  - IP-CIDR,192.145.208.0/22
+  - IP-CIDR6,2804:3ccc::/34
+  - IP-CIDR6,2804:3ccc:8000::/33

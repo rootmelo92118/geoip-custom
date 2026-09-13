@@ -1,0 +1,8 @@
+payload:
+  - IP-CIDR,91.198.102.0/24
+  - IP-CIDR,185.60.180.0/24
+  - IP-CIDR,185.231.52.0/22
+  - IP-CIDR6,2a13:bc80::/30
+  - IP-CIDR6,2a13:bc84::/32
+  - IP-CIDR6,2a13:bc86::/31
+  - IP-CIDR6,2a14:b700::/29

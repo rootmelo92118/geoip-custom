@@ -1,0 +1,15 @@
+payload:
+  - IP-CIDR,191.44.101.0/24
+  - IP-CIDR6,2a09:340::/31
+  - IP-CIDR6,2a09:343::/32
+  - IP-CIDR6,2a09:344::/31
+  - IP-CIDR6,2a09:347::/32
+  - IP-CIDR6,2a0f:140::/29
+  - IP-CIDR6,2a10:3c00::/29
+  - IP-CIDR6,2a10:dfc0::/29
+  - IP-CIDR6,2a11:22c0::/29
+  - IP-CIDR6,2a11:2a80::/29
+  - IP-CIDR6,2a11:9a80::/29
+  - IP-CIDR6,2a11:efc0::/29
+  - IP-CIDR6,2a11:f600::/29
+  - IP-CIDR6,2a13:5040::/29

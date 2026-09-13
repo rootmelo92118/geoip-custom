@@ -1,0 +1,2 @@
+IP-CIDR6,2a06:bbc2:1::/48
+IP-CIDR6,2a06:bbc2:2::/48

@@ -1,0 +1,4 @@
+payload:
+  - IP-CIDR,103.118.168.0/22
+  - IP-CIDR6,2400:cde0::/47
+  - IP-CIDR6,2400:cde0:8::/48
