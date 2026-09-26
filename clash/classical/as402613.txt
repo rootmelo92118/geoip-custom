@@ -1,0 +1,2 @@
+payload:
+  - IP-CIDR6,2602:f3b0::/36

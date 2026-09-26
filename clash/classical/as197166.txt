@@ -1,0 +1,3 @@
+payload:
+  - IP-CIDR6,2a0d:5700::/48
+  - IP-CIDR6,2a0d:5700:cafe::/48

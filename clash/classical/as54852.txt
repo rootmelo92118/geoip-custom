@@ -1,0 +1,2 @@
+payload:
+  - IP-CIDR6,2a01:e281:f4::/48

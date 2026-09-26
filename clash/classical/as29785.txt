@@ -1,0 +1,6 @@
+payload:
+  - IP-CIDR,38.103.121.0/24
+  - IP-CIDR6,2602:fb5b::/48
+  - IP-CIDR6,2602:fb5b:10::/44
+  - IP-CIDR6,2602:fb5b:20::/43
+  - IP-CIDR6,2602:fb5b:40::/44

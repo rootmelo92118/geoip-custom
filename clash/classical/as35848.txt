@@ -1,0 +1,2 @@
+payload:
+  - IP-CIDR6,2602:fab7:f0::/44

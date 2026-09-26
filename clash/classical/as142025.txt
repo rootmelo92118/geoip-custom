@@ -1,0 +1,2 @@
+payload:
+  - IP-CIDR6,2602:feda:190::/44

@@ -1,0 +1,3 @@
+payload:
+  - IP-CIDR,45.85.52.0/24
+  - IP-CIDR6,2a0e:b880::/31

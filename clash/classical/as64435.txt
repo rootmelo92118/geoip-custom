@@ -1,0 +1,5 @@
+payload:
+  - IP-CIDR,44.1.1.0/24
+  - IP-CIDR,44.32.64.0/22
+  - IP-CIDR,185.53.45.0/24
+  - IP-CIDR6,2a0a:bb00::/32
