@@ -1,0 +1,12 @@
+payload:
+  - IP-CIDR,131.143.20.0/23
+  - IP-CIDR,131.143.22.0/24
+  - IP-CIDR6,2602:f8ab:1::/48
+  - IP-CIDR6,2602:f8ab:a::/47
+  - IP-CIDR6,2602:f8ab:c::/48
+  - IP-CIDR6,2602:f8ab:a01::/48
+  - IP-CIDR6,2602:f8ab:a02::/47
+  - IP-CIDR6,2602:f8ab:a06::/47
+  - IP-CIDR6,2602:f8ab:a08::/46
+  - IP-CIDR6,2602:f8ab:a0d::/48
+  - IP-CIDR6,2602:f8ab:a0e::/48

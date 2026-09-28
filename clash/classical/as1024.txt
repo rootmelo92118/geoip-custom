@@ -1,0 +1,14 @@
+payload:
+  - IP-CIDR,23.172.144.0/24
+  - IP-CIDR6,2602:fca7:1::/48
+  - IP-CIDR6,2602:fca7:2::/48
+  - IP-CIDR6,2602:fca7:6::/48
+  - IP-CIDR6,2602:fca7:11::/48
+  - IP-CIDR6,2602:fca7:15::/48
+  - IP-CIDR6,2602:fca7:16::/48
+  - IP-CIDR6,2602:fca7:18::/48
+  - IP-CIDR6,2602:fca7:888::/48
+  - IP-CIDR6,2602:fca7:965::/48
+  - IP-CIDR6,2602:fca7:f01::/48
+  - IP-CIDR6,2602:fca7:f02::/48
+  - IP-CIDR6,2602:fca7:f06::/48

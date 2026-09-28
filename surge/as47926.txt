@@ -1,0 +1,4 @@
+IP-CIDR6,2a0a:5c80::/29
+IP-CIDR6,2a0a:cec0::/29
+IP-CIDR6,2a0b:4a40::/29
+IP-CIDR6,2a0b:c540::/29

@@ -1,0 +1,2 @@
+payload:
+  - IP-CIDR6,2406:840:fed8::/48

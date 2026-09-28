@@ -1,0 +1,3 @@
+IP-CIDR6,2001:67c:f90::/48
+IP-CIDR6,2a01:ffc7:1::/48
+IP-CIDR6,2a01:ffc7:fe::/47

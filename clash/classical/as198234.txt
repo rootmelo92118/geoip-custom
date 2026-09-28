@@ -1,0 +1,2 @@
+payload:
+  - IP-CIDR6,2a10:ccc1:10a::/48

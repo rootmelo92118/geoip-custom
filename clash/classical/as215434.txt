@@ -1,0 +1,6 @@
+payload:
+  - IP-CIDR6,2a01:f0c0::/29
+  - IP-CIDR6,2a01:f344::/30
+  - IP-CIDR6,2a13:afc0::/29
+  - IP-CIDR6,2a14:61c0::/29
+  - IP-CIDR6,2a14:69c0::/29

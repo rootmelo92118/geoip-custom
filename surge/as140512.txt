@@ -1,0 +1,2 @@
+IP-CIDR6,240e:a7:7fcc::/47
+IP-CIDR6,240e:a7:7fce::/48

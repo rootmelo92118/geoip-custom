@@ -1,0 +1,10 @@
+payload:
+  - IP-CIDR,88.218.207.0/24
+  - IP-CIDR6,2a09:b280::/48
+  - IP-CIDR6,2a09:b280:1000::/48
+  - IP-CIDR6,2a09:b280:1010::/48
+  - IP-CIDR6,2a09:b280:1030::/48
+  - IP-CIDR6,2a09:b280:ffb0::/47
+  - IP-CIDR6,2a09:b280:ffb2::/48
+  - IP-CIDR6,2a09:b280:ffba::/48
+  - IP-CIDR6,2a09:b280:ffbe::/47

@@ -1,0 +1,7 @@
+payload:
+  - IP-CIDR,23.163.129.0/24
+  - IP-CIDR6,2602:fef4::/48
+  - IP-CIDR6,2602:fef4:200::/48
+  - IP-CIDR6,2602:fef4:300::/48
+  - IP-CIDR6,2602:fef4:400::/48
+  - IP-CIDR6,2602:fef4:500::/48

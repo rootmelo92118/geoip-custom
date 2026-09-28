@@ -1,0 +1,2 @@
+payload:
+  - IP-CIDR6,2400:70e0:bad::/48

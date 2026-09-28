@@ -1,0 +1,2 @@
+payload:
+  - IP-CIDR6,2a02:de0::/32

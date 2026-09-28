@@ -1,0 +1,15 @@
+payload:
+  - IP-CIDR6,2a0f:1cc5:4600::/40
+  - IP-CIDR6,2a0f:1cc6:b250::/44
+  - IP-CIDR6,2a0f:85c1:bfe::/48
+  - IP-CIDR6,2a14:67c1:b500::/41
+  - IP-CIDR6,2a14:67c1:b580::/47
+  - IP-CIDR6,2a14:67c1:b583::/48
+  - IP-CIDR6,2a14:67c1:b584::/46
+  - IP-CIDR6,2a14:67c1:b588::/45
+  - IP-CIDR6,2a14:67c1:b590::/44
+  - IP-CIDR6,2a14:67c1:b5a0::/43
+  - IP-CIDR6,2a14:67c1:b5c0::/42
+  - IP-CIDR6,2a14:7583:f411::/48
+  - IP-CIDR6,2a14:7583:f4f0::/48
+  - IP-CIDR6,2a14:7583:f4f4::/48
